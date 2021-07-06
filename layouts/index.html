@@ -3,17 +3,24 @@
 <main class="page-main pa4" role="main">
   <section class="page-content mw9 center">
     <div class="flex-l items-center" style="{{ if .Params.image_left }}flex-direction: row-reverse;{{ end }}">
-      <div class="mh4 w-50-l {{ if not .Params.text_align_left }}tr{{ end }}">
-        {{ with .Params.title }}<h1 class="f2 f1-m f-subheadline-l fw5-ns mv4 lh-solid">{{ . }}</h1>{{ end }}
-        {{ with .Params.subtitle }}<h2 class="f5 fw7 mt0 mb4 ttu tracked">{{ . }}</h2>{{ end }}
+      <div class="mh4 w-60-l {{ if not .Params.text_align_left }}tr{{ end }}">
         {{ if .Params.show_social_links }}{{ partial "shared/social-links.html" . }}{{ end }}
+        {{ with .Params.description_title }}<p class="f4 mt4 lh-copy">{{ . | markdownify }}</p>{{ end }}
         {{ with .Params.description }}<p class="f4 mt4 lh-copy">{{ . | markdownify }}</p>{{ end }}
-        {{ if .Params.show_action_link }}<a class="mt4 action {{ .Params.action_type }}" href="{{ .Params.action_link | relURL }}">{{ .Params.action_label | safeHTML }}</a>{{ end }}
+         {{ with .Params.description2 }}<p class="f4 mt4 lh-copy">{{ . | markdownify }}</p>{{ end }}
+        {{ if .Params.show_action_link }}<a class="mt4 action text" style="margin-bottom:10px;margin-top:60px">Contact:</a>
+      <span id="person-email"><a  href={{ .Params.action_link }}>{{ .Params.action_label | safeHTML }}</a></span>{{ end }}
       </div>
-      <div class="tr w-50-l {{ if .Params.image_left }}ml4{{ else }}mr4{{ end }}">
+      <div class="tr w-40-l {{ if .Params.image_left }}ml4{{ else }}mr4{{ end }}">
+      <div class="pt3 pb1 pb2-ns tc ph4">
+        <div class="pt3 pb1 pb2-ns tl ph4">
+        <h2 class="f-subheadline f2-ns fw2" style="margin-top:-10px;">{{ .Params.author }}</h2>
+        <h5 class="f-subheadline f4 fw4 tracked" style="margin-top:-15px;color:black;">{{ .Params.role | markdownify }}</h5>
+        </div>
       {{ with .Params.images }}
-        {{ range first 1 . }}<img class="mv0 w-70-m" src="{{ . }}"/>{{ end }}
+        {{ range first 1 . }}<img class="mv0 w-70-m" src="{{ . }}" style="width:80%"/>{{ end }}
       {{ end }}
+      </div>
       </div>
     </div>
   </section>

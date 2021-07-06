@@ -1,7 +1,6 @@
 baseURL = "https://silvia.rbind.io/"
 theme = "hugo-apero"
 languageCode = "en"
-#title = "Hugo Apéro"
 title = "Suzanne Bellue"
 author = "Suzanne Bellue"
 copyright = "" # set to override the auto generated copyright using org info and now year
@@ -34,13 +33,13 @@ pygmentsUseClasses = true  # use class names instead of directly inserting color
 #pygmentsCodeFences = true  # enable GitHub style code snippets
 
 [params]
-  orgName = "Suzanne Bellue"
-  orgLocal = "Suzanne Bellue"
+  orgName = ""
+  orgLocal = ""
   #description = "A modern, beautiful, and easily configurable blog theme for Hugo."
   #favicon = "/img/favicon.ico"
-  favicon = "Suzanne Bellue"
+  favicon = "/img/blogophonic-mark-dark.png"
   #logo = "/img/blogophonic-mark-dark.png"
-  logo = ""
+  logo = "/img/blogophonic-mark-dark.png"
   mainSections = ["research", "teaching", "CV"]
   navallcaps = true
   # show/hide social icons in site header & footer
@@ -145,12 +144,12 @@ pygmentsUseClasses = true  # use class names instead of directly inserting color
   [[menu.header]]
     name = "About"
     title = "About Me"
-    url = "/about/"
+    url = "/"
     weight = 1
   [[menu.header]]
     name = "Teaching"
-    title = "Invited Talks"
-    url = "/talk/"
+    title = "Teaching"
+    url = "/teaching/"
     weight = 3
   [[menu.header]]
     name = "Research"
@@ -158,9 +157,9 @@ pygmentsUseClasses = true  # use class names instead of directly inserting color
     url = "/publication/"
     weight = 2
  #[[menu.header]]
- #  name = "Projects"
- #  title = "Project Portfolio"
- #  url = "/project/"
+ #  name = "CV"
+ #  title = "CV"
+ #  url = "uploads/resume.pdf"
  #  weight = 5
   #[[menu.header]]
   #  name = "A collection"
