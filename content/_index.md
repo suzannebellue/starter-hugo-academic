@@ -1,8 +1,9 @@
 ---
+title: "Suzanne Bellue" 
 images:
   - img/pers.jpg
 image_alt_text: ""
-image_left: true
+image_right: false
 text_align_left: true
 author: "Suzanne Bellue"
 role: ""
