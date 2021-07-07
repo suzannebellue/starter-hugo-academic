@@ -33,7 +33,7 @@ pygmentsUseClasses = true  # use class names instead of directly inserting color
 #pygmentsCodeFences = true  # enable GitHub style code snippets
 
 [params]
-  orgName = ""
+  orgName = "Suzanne Bellue"
   orgLocal = ""
   #description = "A modern, beautiful, and easily configurable blog theme for Hugo."
   #favicon = "/img/favicon.ico"
