@@ -142,11 +142,6 @@ pygmentsUseClasses = true  # use class names instead of directly inserting color
 [menu]
   # Configure header 
   [[menu.header]]
-    name = "About"
-    title = "About Me"
-    url = "https://suzannebellue.github.io/"
-    weight = 1
-  [[menu.header]]
     name = "Teaching"
     title = "Teaching"
     url = "/teaching/"
