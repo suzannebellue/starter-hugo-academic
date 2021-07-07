@@ -3,20 +3,16 @@
 <main class="page-main pa4" role="main">
   <section class="page-content mw9 center">
     <div class="flex-l items-center" style="{{ if .Params.image_left }}flex-direction: row-reverse;{{ end }}">
-      <div class="mh4 w-70-l {{ if not .Params.text_align_left }}tr{{ end }}">
+      <div class="mh4 w-80-l {{ if not .Params.text_align_left }}tr{{ end }}">
         {{ if .Params.show_social_links }}{{ partial "shared/social-links.html" . }}{{ end }}
        {{ with .Content}}
-        <div class="pt2 f5 measure-wide lh-copy dib">{{ . | markdownify }}</div>
+        <div class="pt2 f5 lh-copy dib">{{ . | markdownify }}</div>
       {{ end }}
       {{ if .Params.show_contact }}<a class="mt4 action text" style="margin-bottom:10px;margin-top:60px">Contact:</a>
       <span id="person-email"><a  href={{ .Params.email_link }}>{{ .Params.email_label | safeHTML }}</a></span>{{ end }}
       </div>
-      <div class="tr w-30-l {{ if .Params.image_left }}ml4{{ else }}mr4{{ end }}">
+      <div class="tr w-20-l {{ if .Params.image_left }}ml4{{ else }}mr4{{ end }}">
       <div class="pt3 pb1 pb2-ns tc ph4">
-        <div class="pt3 pb1 pb2-ns tl ph4">
-        <h2 class="f-subheadline f2-ns fw2" style="margin-top:-10px;">{{ .Params.author }}</h2>
-        <h5 class="f-subheadline f4 fw4 tracked" style="margin-top:-15px;color:black;">{{ .Params.role | markdownify }}</h5>
-        </div>
       {{ with .Params.images }}
         {{ range first 1 . }}<img class="mv0 w-70-m" src="{{ . }}" style="width:80%"/>{{ end }}
       {{ end }}

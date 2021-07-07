@@ -1,7 +1,7 @@
 {{ $page := . }}                           <!--save current page-->
 {{ $section := $page.CurrentSection }}     <!--save branch section-->
 {{ $root := .Scratch.Get "$root" }}     <!--save root section-->
-<article class="mv4 mv5-l bb">
+<article class="mv2 mv2-l bb">
   
   <!--if show_post_thumbnail is TRUE in root-->
   {{ if $root.Params.show_post_thumbnail }}
@@ -40,19 +40,29 @@
   
   <!--if show_post_thumbnail is FALSE in root-->
   {{ else }}
-  <div class="measure-wide center mb4 mb5-l">
+  <div class=" center mb2 mb3-l">
     <header>
-      <h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="{{ .RelPermalink }}" class="db">{{ .Title | markdownify }}</a></h1>
+      <h1 class="f3 mt0 mb2 lh-title  fw3" style="color:black">{{ .Title | markdownify }}</h1>
       {{ range first 1 (.GetTerms "series") }}
       <h2 class="f5"><i class="fas fa-stream fa-fw pr1"></i><small class="f5 ttu tracked">Series: </small><a class="link i dim" href="{{ $section.RelPermalink }}">{{ .LinkTitle }}</a></h2>
       {{ end }}
+      {{ if $root.Params.show_author_byline }}<p class="f6 db mv2 ">{{ if .Params.author }}{{ .Params.author }}{{ end }}{{ with .Params.categories }} in{{ range . }} <a href="{{ "categories/" | absURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}{{ end }}</p>{{ end }}
+      {{ if $root.Params.show_post_date }}<p class="f7 db mv2">{{ .PublishDate.Format "January 2, 2006" }}</p>{{ end }}
     </header>
       {{ $summary := cond (ne .Params.excerpt nil) .Params.excerpt .Summary }}
-      {{ with $summary }}<p class="lh-copy mb4">{{ . | markdownify | emojify }}</p>{{ end }}
+      {{ with $summary }}<p class="f6 lh-copy mb2">{{ . | markdownify | emojify }}</p>{{ end }}
     <footer>
-      {{ if $root.Params.show_author_byline }}<p class="f7 db mv2">{{ if .Params.author }}By {{ .Params.author }}{{ end }}{{ with .Params.categories }} in{{ range . }} <a href="{{ "categories/" | absURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}{{ end }}</p>{{ end }}
-      {{ if $root.Params.show_post_date }}<p class="f7 db mv2">{{ .PublishDate.Format "January 2, 2006" }}</p>{{ end }}
-    </footer>
+  {{ if .Params.full_abstract }}
+  <div class="ph0 pt2 ">
+     <a class="btn-links mr2 ba dib" href="{{ .RelPermalink }}"><i class="fa-lg fa-fw mr1"></i>Full abstract</a>
+  {{ if .Params.links }}
+  {{ partial "shared/btn-links.html" . }}
+  {{ end }}
   </div>
   {{ end }}
+
+  </footer>
+  </div>
+  {{ end }}
+
 </article>

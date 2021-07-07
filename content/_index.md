@@ -18,4 +18,3 @@ Welcome!
 I am a PhD student in the Department of Economics at [Mannheim University](https://www.vwl.uni-mannheim.de/en/). My research interests include labor, family, gender and development economics.
 
 You can find my CV [here](uploads/resume.pdf).
-
