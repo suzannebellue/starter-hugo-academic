@@ -3,18 +3,18 @@
 <main class="page-main pa4" role="main">
   <section class="page-content mw9 center">
     <div class="flex-l items-center" style="{{ if .Params.image_right }}flex-direction: row-reverse;{{ end }}">
-      <div class="tr w-30-l {{ if .Params.image_right }}mr4{{ else }}ml4{{ end }}">
+      <div class=" w-30-l {{ if .Params.image_right }}mr4{{ else }}ml4{{ end }}">
       <div class="pt3 pb1 pb2-ns  ph4">
-      <h3 class="f3 mt2 mb4 tc lh-title  fw6">{{ .Params.title }}</h3>
+      <h3 class="f3 mt2 mb4 lh-title fw6 ">{{ .Params.title }}</h3>
       {{ with .Params.images }}
         {{ range first 1 . }}<img class="mv0 w-70-m" src="{{ . }}" style="max-width: 250px;"/>{{ end }}
       {{ end }}
       </div>
       </div>
-      <div class="mh4 w-70-l {{ if not .Params.text_align_left }}tr{{ end }}">
+      <div class="mh0 w-70-l {{ if not .Params.text_align_left }}tr{{ end }}">
         {{ if .Params.show_social_links }}{{ partial "shared/social-links.html" . }}{{ end }}
        {{ with .Content}}
-        <div class="pt2 f5 measure-wide lh-copy dib">{{ . | markdownify }}</div>
+        <div class="pt2 f5 mw7 lh-copy dib">{{ . | markdownify }}</div>
       {{ end }}
       {{ if .Params.show_contact }}<a class="mt4 action text" style="margin-bottom:10px;margin-top:60px">Contact:</a>
       <span id="person-email"><a  href={{ .Params.email_link }}>{{ .Params.email_label | safeHTML }}</a></span>{{ end }}
