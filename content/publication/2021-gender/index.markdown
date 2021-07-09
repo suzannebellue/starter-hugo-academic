@@ -1,6 +1,6 @@
 ---
 title: "Employment Transitions: Mechanisms For Gender Earnings Gap"
-author: "Suzanne Bellue, Valentina Melentyeva"
+author: "Valentina Melentyeva"
 date: '2020-10-03'
 slug: smm-gender
 tags:
@@ -9,4 +9,5 @@ summary: ''
 featured: yes
 full_abstract: no
 links:
+show_post_date: false
 ---

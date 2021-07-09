@@ -1,7 +1,7 @@
 ---
 article_class: "working paper"
 title: "Social Mobility with Subjective Beliefs: The Effects of Neighborhoods on Investment Choices"
-author: "Suzanne Bellue"
+author: ""
 date: '2021-04-03'
 slug: smm-individual-neighborhood
 tags:
@@ -10,6 +10,7 @@ summary: 'Neighborhoods in the US shape future economics outcomes of children wh
 featured: yes
 full_abstract: yes
 links:
+show_post_date: false
 ---
 
 **Abstract**:
