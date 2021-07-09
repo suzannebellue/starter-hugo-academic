@@ -1,11 +1,11 @@
 ---
+article_class: "working paper"
 title: "Social Mobility with Subjective Beliefs: The Effects of Neighborhoods on Investment Choices"
 author: "Suzanne Bellue"
-date: '2021-06-30'
+date: '2021-04-03'
 slug: smm-individual-neighborhood
 tags:
-  - urban economics
-  - parental investment
+  - Work in progress
 summary: 'Neighborhoods in the US shape future economics outcomes of children who grow up in them, and their endogenous demographic composition define who are the role models for those children. I develop and estimate a structural spatial equilibrium model of parental investments in which residential choices exogenously impact the human capital formation of children, and endogenously shape their expectations about the returns to educational investments.'
 featured: yes
 full_abstract: yes

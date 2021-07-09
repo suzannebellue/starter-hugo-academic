@@ -2,7 +2,7 @@
 <main class="page-main pa4" role="main">
     {{ $caller := . }}
     {{ range $taxonomyname, $taxonomy := index .Site.Taxonomies }}
-    {{ if eq "tags" $taxonomyname }}
+    {{ if eq "jobs" $taxonomyname }}
     {{ range $key, $value := $taxonomy }}
   <section class="blog-intro mw7 left mb3 ">
     <h3 class="f3 mt2 mb2 ml5 lh-title  fw6">{{ replace $key "-" " " | humanize }}</h3>
@@ -10,10 +10,12 @@
   <div class="flex-l items-center">
   <section class="blog-intro mw7 left mb5 ">
   </section>
-  <section class="blog-content mw7  center ml7 mt4">
+  <section class="blog-content mw7  left ml7 mt4">
         {{ range ($value.Pages).ByDate.Reverse }}
         {{ .Scratch.Set "$root" $caller }}
-        {{ partial "shared/summary" . }}
+         {{ with .Content}}
+        <div class="pt2 f5 lh-copy dib">{{ . | markdownify }}</div>
+         {{ end }}
       {{ end }}
   </section>
   </div>

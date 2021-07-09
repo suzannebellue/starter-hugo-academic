@@ -52,7 +52,7 @@ pygmentsUseClasses = true  # use class names instead of directly inserting color
   sharing_image = "/img/LakePink_Social.png"
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
   #twitter = ""
-  
+
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
   #         poppy / sky / violet / water 
@@ -138,6 +138,7 @@ pygmentsUseClasses = true  # use class names instead of directly inserting color
   category = "categories"
   series = "series"
   tag = "tags"
+  job = "jobs"
 
 [menu]
   # Configure header 

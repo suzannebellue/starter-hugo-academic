@@ -1,25 +1,23 @@
 {{ define "main" }}
 {{ $page := . }}
 <main class="page-main pa4" role="main">
-  <section class="page-content mw9 center">
-    <div class="flex-l items-center" style="{{ if .Params.image_right }}flex-direction: row-reverse;{{ end }}">
-      <div class=" w-30-l {{ if .Params.image_right }}mr4{{ else }}ml4{{ end }}">
-      <div class="pt3 pb1 pb2-ns  ph4">
-      <h3 class="f3 mt2 mb4 lh-title fw6 ">{{ .Params.title }}</h3>
-      {{ with .Params.images }}
-        {{ range first 1 . }}<img class="mv0 w-70-m" src="{{ . }}" style="max-width: 250px;"/>{{ end }}
-      {{ end }}
-      </div>
-      </div>
-      <div class="mh0 w-70-l {{ if not .Params.text_align_left }}tr{{ end }}">
+  <section class="blog-intro mw7 left mb3 ">
+    <h3 class="f3 mt2 mb2 ml5 lh-title  fw6">{{ .Title | markdownify }}</h3>
+  </section>
+  <div class="flex-l items-center">
+  <section class="blog-intro mw7 left mb1 mt3 ">
+    {{ with .Params.images }}
+        {{ range first 1 . }}<img class="mv0 w-70-m ml5" src="{{ . }}" style="max-width: 225px;"/>{{ end }}
+        {{ end }}
+  </section>
+  <section class="blog-content mw7  {{ if .Params.images }}left ml3{{ else }}center ml7{{ end }} mt4">
         {{ if .Params.show_social_links }}{{ partial "shared/social-links.html" . }}{{ end }}
        {{ with .Content}}
         <div class="pt2 f5 mw7 lh-copy dib">{{ . | markdownify }}</div>
       {{ end }}
       {{ if .Params.show_contact }}<a class="mt4 action text" style="margin-bottom:10px;margin-top:60px">Contact:</a>
       <span id="person-email"><a  href={{ .Params.email_link }}>{{ .Params.email_label | safeHTML }}</a></span>{{ end }}
-      </div>
-    </div>
   </section>
+  </div>
 </main>
 {{ end }}
