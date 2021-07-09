@@ -2,7 +2,6 @@
 jobs:
   - Research assistant
 ---
-<section class="blog-content mw7 center">
 
   <div class="flex-l items-center  mb3">
   <div class="mh2 w-5-l" style="width: 30%;"><b style="color:black">2019-..</b></div>
@@ -23,6 +22,6 @@ jobs:
                           Pr. Dina Pomeranz </div>
   </div>
 
-</section>
+
 
                     
