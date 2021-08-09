@@ -13,9 +13,9 @@ links:
   icon_pack: fa
   name: PDF
   url: https://adrienbouguen.files.wordpress.com/2021/01/bellue_etal_wp2021.pdf
-- icon: file-pdf
-  icon_pack: 
-  name: J-PAL page
+- icon: link
+  icon_pack: fa
+  name: J-PAL
   url: https://www.povertyactionlab.org/evaluation/teacher-training-and-student-achievement-science-evidence-france
 ---
 
