@@ -103,7 +103,7 @@ pygmentsUseClasses = true  # use class names instead of directly inserting color
   #[[params.social]]
   #    icon      = "github" # icon name without the 'fa-'
   #    icon_pack = "fab"
-  #    url       = "https://github.com/spcanelon/silvia"
+  #    url       = ""
   #[[params.social]]
   #    icon      = "facebook-square" # icon name without the 'fa-'
   #    icon_pack = "fab"
@@ -138,7 +138,7 @@ pygmentsUseClasses = true  # use class names instead of directly inserting color
   category = "categories"
   series = "series"
   tag = "tags"
-  job = "jobs"
+  work_type = "jobs"
 
 [menu]
   # Configure header 
