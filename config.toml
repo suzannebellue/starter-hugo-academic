@@ -149,8 +149,8 @@ pygmentsUseClasses = true  # use class names instead of directly inserting color
     weight = 3
   [[menu.header]]
     name = "Research"
-    title = "Research Publications"
-    url = "/publication/"
+    title = "Research"
+    url = "/research/"
     weight = 2
  #[[menu.header]]
  #  name = "CV"
