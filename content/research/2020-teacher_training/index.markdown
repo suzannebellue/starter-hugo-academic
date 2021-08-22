@@ -4,7 +4,7 @@ author: "Adrien Bouguen, Marc Gurgand, Valerie Munier and André Tricot"
 date: '2020-11-03'
 slug: teacher-training
 tags:
-  - Working paper
+  - Working papers
 summary: ''
 featured: yes
 full_abstract: no

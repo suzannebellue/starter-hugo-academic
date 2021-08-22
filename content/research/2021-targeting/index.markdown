@@ -4,7 +4,7 @@ author: "Emily Aiken, Dean Karlan, Christopher R. Udry and Joshua Blumenstock"
 date: '2021-07-01'
 slug: targeting
 tags:
-  - Working paper
+  - Working papers
 summary: ''
 featured: yes
 full_abstract: no
