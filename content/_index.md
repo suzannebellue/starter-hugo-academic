@@ -1,5 +1,5 @@
 ---
-title: "Suzanne Bellue" 
+title: "" 
 images:
   - img/pers.jpg
 image_alt_text: ""
