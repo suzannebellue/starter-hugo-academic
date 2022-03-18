@@ -6,7 +6,7 @@ date: '2021-04-03'
 slug: smm-individual-neighborhood
 tags:
   - Work in progress
-summary: "Children's neighborhoods in the US matter for their economic outcomes as adults, yet, low-income families tend to live in low-opportunity areas. I argue that local information transmission about returns to parental instement can explain this pattern. I develop and estimate a spatial equilibrium model of an average commuting zone with multiple neighborhoods, altruistic families and imperfect information about returns to parental investment. In this model, exogenous neighborhood quality affects children's human capital, while endogenous neighborhood demographics shape their beliefs about the returns to parental investment."
+summary: "Children's neighborhoods in the US matter for their economic outcomes as adults, yet, low-income families tend to live in low-opportunity areas. I argue that local information transmission about returns to parental investment can explain this pattern. I develop and estimate a spatial equilibrium model of an average commuting zone with multiple neighborhoods, altruistic families and imperfect information about returns to parental investment. In this model, exogenous neighborhood quality affects children's human capital, while endogenous neighborhood demographics shape their beliefs about the returns to parental investment."
 featured: yes
 full_abstract: false
 links:
