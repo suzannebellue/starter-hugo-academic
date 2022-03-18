@@ -1,6 +1,6 @@
 ---
 title: "Macroeconomic Consequences of Early Education Tracking"
-author: "Lukas Mahler"
+author: "[Lukas Mahler](https://lukasmahler.github.io/)"
 date: '2020-11-03'
 slug: tracking
 tags:

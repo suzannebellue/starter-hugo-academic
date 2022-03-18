@@ -1,17 +1,17 @@
 ---
 title: "Teacher Training Program, Teacher Practices and Student Performance in Science: Evidence from a Randomized Study in French Primary Schools"
-author: "Adrien Bouguen, Marc Gurgand, Valerie Munier and André Tricot"
+author: "[Adrien Bouguen](https://adrienbouguen.com/), [Marc Gurgand](https://www.parisschoolofeconomics.eu/en/gurgand-marc/), Valerie Munier and [André Tricot](http://andre.tricot.pagesperso-orange.fr/)"
 date: '2020-11-03'
 slug: teacher-training
 tags:
-  - Working papers
+  - Working Papers and Publications
 summary: ''
 featured: yes
 full_abstract: no
 links:
 - icon: file-pdf
   icon_pack: fa
-  name: PDF
+  name: 
   url: https://adrienbouguen.files.wordpress.com/2021/01/bellue_etal_wp2021.pdf
 - icon: link
   icon_pack: fa

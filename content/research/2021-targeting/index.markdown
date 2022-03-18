@@ -1,21 +1,21 @@
 ---
 title: "Machine Learning and Mobile Phone Data Can Improve the Targeting of Humanitarian Assistance"
-author: "Emily Aiken, Dean Karlan, Christopher R. Udry and Joshua Blumenstock"
+author: "[Emily Aiken](https://emilylaiken.github.io/), [Dean Karlan](http://deankarlan.com/), [Chris Udry](https://sites.northwestern.edu/christopherudry/) and [Joshua Blumenstock](https://www.jblumenstock.com/). Nature (2022). "
 date: '2021-07-01'
 slug: targeting
 tags:
-  - Working papers
-summary: ''
+  - Working Papers and Publications
+summary: 'Targeting is a central challenge in the administration of anti-poverty programs: given available data, how does one rapidly identify the individuals and families with the greatest need? Here we show that non-traditional “big” data from satellites and mobile phone networks can improve the targeting of anti-poverty programs. Our analysis compares outcomes – including exclusion errors, total social welfare, and measures of fairness – under different targeting regimes. Relative to other feasible targeting options, the machine learning approach reduces errors of exclusion by 4-21%. These results highlight the potential for new data sources to contribute to humanitarian response efforts, particularly in crisis settings when traditional data are missing or out of date.'
 featured: yes
 full_abstract: no
 links:
-- icon: file-pdf
+- icon: newspaper
   icon_pack: fa
-  name: PDF
-  url: https://www.nber.org/system/files/working_papers/w29070/w29070.pdf
-- icon: link
+  name: 
+  url: https://www.nature.com/articles/s41586-022-04484-9
+- icon: film
   icon_pack: fa
-  name: News
-  url: https://www.npr.org/sections/goatsandsoda/2021/02/15/966848542/the-pandemic-pushed-this-farmer-into-deep-poverty-then-something-amazing-happened?t=1629638969239
+  name: CEGA
+  url: https://www.youtube.com/watch?v=Nl0GnJp9pqI&list=PLaFy9toa8O6PVA1kDfvgTRrIyoSYvZQjV&index=3
 ---
 
