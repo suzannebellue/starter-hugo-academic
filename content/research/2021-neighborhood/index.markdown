@@ -3,7 +3,7 @@ article_class: "working paper"
 title: "Why Don't Poor Families Move? A Spatial Equilibrium of Parental Investment with Imperfect Information"
 author: ''
 date: '2021-04-03'
-slug: neighborhoods
+slug: smm-individual-neighborhood
 tags:
   - Work in progress
 summary: "By choosing neighborhoods in which to live, parents affect future economic outcomes of their children. Nevertheless, low-income families who benefit from housing vouchers tend to remain in low-opportunity areas. While empirical evidence suggests that affordability and moving costs do not fully explain this pattern, in this paper I will argue that this phenomenon can results from local information transmission about returns on parental investment. After presenting empirical evidence of local transmission of information, I develop and calibrate a spatial equilibrium model of an average commuting zone with multiple neighborhoods, families and imperfect information about returns on parental investment. In this model, adults' human capital is determined by two parental investment choices (neighborhood and time) and by one exogenous luck shock. During childhood, agents learn about returns on parental investment using information at the local level. Under the assumption that children do not know the local distribution of the luck shock, this model displays persistent delusion that is correlated with earnings. The calibrated model captures empirical patterns regarding the correlation between parental investment and education, intergenerational mobility and residential choices. Place based policies that decrease neighborhood quality heterogeneity and segregation within a commuting zone substantially improve intergenerational mobility. "
