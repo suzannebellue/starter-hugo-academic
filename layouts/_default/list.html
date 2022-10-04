@@ -10,7 +10,7 @@
   <div class="flex-l items-center">
   <section class="blog-intro mw7 left mb5 ">
   </section>
-  <section class="blog-content mw7  center ml7 mt2">
+  <section class="blog-content flex-auto  mw7 center ml7 mt2">
         {{ range ($value.Pages).ByDate.Reverse }}
         {{ .Scratch.Set "$root" $caller }}
         {{ partial "shared/summary" . }}

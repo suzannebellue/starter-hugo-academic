@@ -16,6 +16,6 @@ type: home
 Welcome! 
 
 
-I am a PhD student in the [Department of Economics](https://gess.uni-mannheim.de/doctoral-programs/economics-cdse.html) at [Mannheim University](https://www.vwl.uni-mannheim.de/en/). My research interests include macroeconomics, urban economics and development economics.
+I am a PhD student in the [Department of Economics](https://gess.uni-mannheim.de/doctoral-programs/economics-cdse.html) at [Mannheim University](https://www.vwl.uni-mannheim.de/en/). My research interests include macroeconomics, family economic, public economics and development economics.
 
 You can find my CV [here](uploads/resume.pdf).
