@@ -1,6 +1,6 @@
 ---
 title: "Employment Transitions: Mechanisms For Gender Earnings Gap "
-author: "Valentina Melentyeva"
+author: "[Valentina Melentyeva](https://www.valentinamelentyeva.com/)"
 date: '2020-10-03'
 slug: smm-gender
 tags:
