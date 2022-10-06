@@ -16,6 +16,11 @@ type: home
 Welcome! 
 
 
-I am a PhD student in the [Department of Economics](https://gess.uni-mannheim.de/doctoral-programs/economics-cdse.html) at [Mannheim University](https://www.vwl.uni-mannheim.de/en/). My research interests include macroeconomics, family economic, public economics and development economics.
+I am a PhD candidate in the [Department of Economics](https://gess.uni-mannheim.de/doctoral-programs/economics-cdse.html) at [Mannheim University](https://www.vwl.uni-mannheim.de/en/). 
 
-You can find my CV [here](uploads/resume.pdf).
+My research interests include macroeconomics, family, public, urban and development economics. 
+
+I am on the 2022-23 economics job market and will be available for interviews. 
+
+ <a  href=research class="mt8 ttu tracked b db link underline" style="margin-bottom:10px;margin-top:40px">Research</a> 
+ <a  href=uploads/resume.pdf class="mt8 ttu tracked  b db link underline" style="margin-bottom:30px;margin-top:0px">CV</a>

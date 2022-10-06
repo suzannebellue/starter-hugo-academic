@@ -19,7 +19,7 @@
        {{ with .Content}}
         <div class="pt2 f5 mw7 lh-copy dib">{{ . | markdownify }}</div>
       {{ end }}
-      {{ if .Params.show_contact }}<a class="mt4 action text" style="margin-bottom:10px;margin-top:60px">Contact:</a>
+      {{ if .Params.show_contact }}<a class="mt4 action text" style="margin-bottom:10px;margin-top:20px">Contact:</a>
       <span id="person-email"><a  href={{ .Params.email_link }}>{{ .Params.email_label | safeHTML }}</a></span>{{ end }}
   </section>
   </div>
