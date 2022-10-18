@@ -147,7 +147,7 @@ I use the calibrated model to evaluate a housing voucher policy. In line with em
     <th>4th</th>
   </tr>
   <tr>
-    <td>Subjective Beliefs</td>
+    <td>Perceived Returns</td>
     <td>+2.8%</td>
     <td>+7.1%</td>
     <td>+3.3%</td>
