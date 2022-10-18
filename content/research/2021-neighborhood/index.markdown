@@ -16,23 +16,31 @@ show_post_date: false
 
 Parents' neighborhood choices shape children’s economic opportunities in the United States. However, most children raised in bottom-quality neighborhoods still live in low-quality neighborhoods in adulthood. 
 
-<img src="../../uploads/heatmapData.png"  height="300" >
+<div>                        
+    <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+        <script src="../../js/matrixmobData1.js"></script>                 
+        <div id="a88207b5-fc84-49ea-9a5f-18a066ca9e96" class="plotly-graph-div" style="height:100%; width:100%;"></div>            
+        <script src="../../js/matrixmobData2.js"></script>    
+</div>
 
 
 **Could parents' neighborhood choices also affect their children's future choices?**
 
 I propose a novel mechanism: neighborhood social learning about the technology of skill formation. Young adults learn and infer the returns to neighborhood quality (and parental time) by observing how successful older adults in their neighborhoods are. But they only imperfectly see their neighbors' abilities. When young adults underestimate their neighbors' abilities, they become over-optimistic about the returns. Conversely, when young adults overestimate their neighbors' abilities, they become pessimistic about the returns. 
 
-<img src="../../uploads/nbh1.jpeg"   height="300" >
+<div style="text-align: center;"><img src="../../uploads/nbh1.jpeg"   height="300" ></div>
 
 I develop a quantitative spatial model of parental decisions in which I incorporate the novel mechanism.
 Segregation -- a form of spatial sorting based of abilities-- generates information frictions that systematically distort parents' subjective beliefs and behavior.
 
 Using several United States representative datasets, I calibrate the model to the average commuting zone in the country. The calibrated model matches targeted and non-targeted parental behaviors and generates an endogenous distribution of subjective beliefs.
 
-<img src="../../uploads/heatmapModel.png"  height="300" >
-
-
+<div>                        
+    <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+   <script src="../../js/matrixmobModel1.js"></script>                
+   <div id="426e6716-9deb-476e-97b6-3201cc5232fd" class="plotly-graph-div" style="height:100%; width:100%;"></div>            
+   <script src="../../js/matrixmobModel2.js"></script>         
+</div>
 
 A relatively modest level of delusion significantly affects the economy: inequality increases by 3% and social mobility decreases by 12%. 
 
