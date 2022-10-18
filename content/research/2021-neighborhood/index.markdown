@@ -65,11 +65,11 @@ Using several United States representative datasets, I calibrate the model to th
   </div>   
     
 
-I find a relatively modest delusion level --consistent with micro-studies-- that significantly affects the economy. Delusion is asymmetric across the income distribution. Low-income parents underestimate the returns more than high-income households overestimate them. Inequality would be 3% lower and social mobility 12% higher in a perfect information economy.
+I find a relatively modest delusion level --consistent with micro-studies-- that significantly affects the economy. Delusion is asymmetric across the income distribution. Low-income parents underestimate the returns more than high-income households overestimate them. Inequality would be 3% lower and social mobility 12% higher if parents knew the returns.
 
 
 <table class="f6  mw7" stye="max-width: 100%;display: flex;">
-<caption>Effects of Social Learning - Changes Relative to Baseline Model</caption>
+<caption>Effects of Social Learning - Changes due to Perfect Information Relative to Baseline Model</caption>
   <tr>
   	<th></th>
     <th></th>
