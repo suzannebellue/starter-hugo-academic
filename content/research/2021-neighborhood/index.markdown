@@ -17,12 +17,12 @@ By Suzanne Bellue
 Parents' neighborhood choices shape children’s economic opportunities in the United States. However, most children raised in bottom-quality neighborhoods still live in low-quality neighborhoods in adulthood. 
 
 <div>                        
-    <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
-        <script src="../../js/matrixmobData1.js"></script>                 
-        <div id="a88207b5-fc84-49ea-9a5f-18a066ca9e96" class="plotly-graph-div" style="height:100%; width:100%;"></div>            
-    <script src="../../js/matrixmobData2.js"></script>   
-   <div style="text-align: right;" class="f7"> source: AddHealth </div>
-</div>
+        <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+       <script src="../../js/matrixmobData1.js"></script>              
+        <div id="c8cd8b7a-b401-43d2-825c-336fd879e2c6" class="plotly-graph-div" style="height:100%; width:100%;"></div>            
+        <script src="../../js/matrixmobData2.js"></script>          
+        <div style="text-align: right;" class="f7"> source: AddHealth</div>
+    </div>
 
 
 **Could parents' neighborhood choices also affect their children's future choices?**
@@ -51,18 +51,20 @@ Segregation --a form of spatial sorting partly based of ability shock-- generate
 
 Using several United States representative datasets, I calibrate the model to the average commuting zone in the country. The calibrated model matches targeted and non-targeted parental behaviors and generates an endogenous distribution of subjective beliefs.
 
+
 <div>                        
-    <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
-   <script src="../../js/matrixmobModel1.js"></script>                
-   <div id="426e6716-9deb-476e-97b6-3201cc5232fd" class="plotly-graph-div" style="height:100%; width:100%;"></div>            
-   <script src="../../js/matrixmobModel2.js"></script>   
-     <div style="text-align: right;" class="f7"> source: model generated data</div>
-</div>
+        <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+        <script src="../../js/matrixmobModel12.js"></script>                
+        <div id="fe863b8b-acc1-4457-897f-08497b532913" class="plotly-graph-div" style="height:100%; width:100%;"></div>            
+        <script src="../../js/matrixmobModel22.js"></script> 
+         <div style="text-align: right;" class="f7"> source: model generated data</div>
+  </div>   
+    
 
 I find a relatively modest delusion level --consistent with micro-studies-- that significantly affects the economy: inequality increases by 3%, and social mobility decreases by 12%. 
 
 
-<table>
+<table class="f6  mw7">
 <caption>Effects of Neighborhood Social Learning</caption>
   <tr>
   	<th></th>
@@ -124,7 +126,7 @@ I find a relatively modest delusion level --consistent with micro-studies-- that
 I use the calibrated model to evaluate a housing voucher policy. In line with empirical evidence, the model predicts that housing vouchers improve the neighborhood quality of eligible families, raising children's future earnings. When scaling up the policy to 10\% of the lowest income families, general equilibrium responses in local prices and subjective beliefs amplify the effects on eligible households, reducing inequality and improving social mobility. Ignoring subjective belief responses significantly undermines the housing voucher policy effects.
 
 
-<table>
+<table class="f6  mw7">
 <caption>Effects of a Housing Voucher Policy</caption>
   <tr>
   	<th></th>
