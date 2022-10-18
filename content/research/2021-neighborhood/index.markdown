@@ -27,7 +27,7 @@ Parents' neighborhood choices shape children’s economic opportunities in the U
 
 **Could parents' neighborhood choices also affect their children's future choices?**
 
-I propose a novel mechanism: neighborhood social learning about the technology of skill formation. 
+I propose a novel mechanism: social learning about the technology of skill formation in the neighborhood. 
 
 
 <table>
@@ -36,9 +36,11 @@ I propose a novel mechanism: neighborhood social learning about the technology o
 
 Information is imperfect; people are unaware of the returns to parental inputs and must learn about it. Young adults learn by observing older adults in their neighborhoods (social learning). They see average local successes and past parental inputs but only perceive their neighbors' ability shocks. 
 
-Young adults' inference of the returns to parental inputs crucially depends on the accuracy of their perception of local ability shocks. If they underestimate local ability shocks, they implicitly attribute too little of the local success to those shocks and become over-optimistic about the returns to parental inputs. Conversely, if they overestimate them, they become pessimistic about the returns.
+Young adults' inference of the returns crucially depends on the accuracy of their perception. If they underestimate local ability shocks, they implicitly attribute too little of the local successes to those shocks and become over-optimistic about the returns to parental inputs. Conversely, if they overestimate them, they become pessimistic about the returns.
 
-Ability shock perceptions are unbiased but bounded, which moderates extreme ability shock values. As a result, young adults underestimate local ability shocks and become over-optimistic in neighborhoods where ability shocks are bigger than the average. Conversely, young adults overestimate local ability shocks and become pessimistic in neighborhoods where ability shocks are smaller than the average.  </div ></td></tr>
+Ability shock perceptions are unbiased but bounded, which leads to moderate perceptions of ability shocks. Therefore, the larger the ability shocks in a given neighborhood, the more young adults underestimate local ability shocks and become over-optimistic. Conversely, the smaller the ability shocks in a given neighborhood, the more young adults overestimate local ability shocks and become pessimistic.  
+
+With residential income segregation, persistent delusion arises endogenously. In high-quality neighborhoods, live, on average, over-optimistic and wealthy parents with high-ability shocks. Their children become over-optimistic and tend to stay. In low-quality neighborhoods live, on average, pessimistic and low-income parents with low-ability shocks. Their children become pessimistic and tend to stay.  </div ></td></tr>
 </table>
 
 
