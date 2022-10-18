@@ -18,9 +18,9 @@ Parents' neighborhood choices shape children’s economic opportunities in the U
 
 <div>                        
         <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
-       <script src="../../js/matrixmobData1.js"></script>              
-        <div id="c8cd8b7a-b401-43d2-825c-336fd879e2c6" class="plotly-graph-div" style="height:100%; width:100%;"></div>            
-        <script src="../../js/matrixmobData2.js"></script>          
+        <script src="../../js/matrixmobData1.js"  ></script>              
+        <div id="c8cd8b7a-b401-43d2-825c-336fd879e2c6" class="plotly-graph-div" style="height:500px; width:100%;"></div>            
+        <script src="../../js/matrixmobData2.js" ></script>          
         <div style="text-align: right;" class="f7"> source: AddHealth</div>
     </div>
 
@@ -64,7 +64,7 @@ Using several United States representative datasets, I calibrate the model to th
 I find a relatively modest delusion level --consistent with micro-studies-- that significantly affects the economy: inequality increases by 3%, and social mobility decreases by 12%. 
 
 
-<table class="f6  mw7" stye="max-width: 100%;display: block;">
+<table class="f6  mw7" stye="max-width: 100%;display: flex;">
 <caption>Effects of Neighborhood Social Learning</caption>
   <tr>
   	<th></th>
@@ -126,7 +126,7 @@ I find a relatively modest delusion level --consistent with micro-studies-- that
 I use the calibrated model to evaluate a housing voucher policy. In line with empirical evidence, the model predicts that housing vouchers improve the neighborhood quality of eligible families, raising children's future earnings. When scaling up the policy to 10\% of the lowest income families, general equilibrium responses in local prices and subjective beliefs amplify the effects on eligible households, reducing inequality and improving social mobility. Ignoring subjective belief responses significantly undermines the housing voucher policy effects.
 
 
-<table class="f6  mw7" stye="max-width: 100%;display: block;">
+<table class="f6  mw7" stye="max-width: 100%;display: flex;">
 <caption>Effects of a Housing Voucher Policy</caption>
   <tr>
   	<th></th>
