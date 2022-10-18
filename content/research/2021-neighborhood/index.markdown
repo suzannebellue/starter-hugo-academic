@@ -65,11 +65,11 @@ Using several United States representative datasets, I calibrate the model to th
   </div>   
     
 
-I find a relatively modest delusion level --consistent with micro-studies-- that significantly affects the economy: inequality increases by 3%, and social mobility decreases by 12%. 
+I find a relatively modest delusion level --consistent with micro-studies-- that significantly affects the economy: under perfect information inequality decreases by 3%, and social mobility increases by 12%. 
 
 
 <table class="f6  mw7" stye="max-width: 100%;display: flex;">
-<caption>Effects of Neighborhood Social Learning</caption>
+<caption>Effects of Perfect Information</caption>
   <tr>
   	<th></th>
     <th></th>
@@ -85,24 +85,24 @@ I find a relatively modest delusion level --consistent with micro-studies-- that
     <th>4th</th>
   </tr>
   <tr>
-    <td>Subjective Beliefs</td>
-    <td>-3%</td>
-    <td>-17%</td>
-    <td>-6%</td>
+    <td>Perceived Returns</td>
+    <td>+3%</td>
+    <td>+17%</td>
+    <td>+6%</td>
     <td>0%</td>
-    <td>+7%</td>
+    <td>-7%</td>
   </tr>
     <tr>
     <td>Parental Time</td>
-    <td>-7%</td>
-    <td>-31%</td>
-    <td>-10%</td>
-    <td>-3%</td>
-    <td>+5%</td>
+    <td>+7%</td>
+    <td>+31%</td>
+    <td>+10%</td>
+    <td>+3%</td>
+    <td>-5%</td>
   </tr>
       <tr>
     <td>Social Mobility</td>
-    <td>-12%</td>
+    <td>+12%</td>
     <td></td>
     <td></td>
     <td></td>
@@ -110,7 +110,7 @@ I find a relatively modest delusion level --consistent with micro-studies-- that
   </tr>
   <tr>
     <td>Inequality</td>
-    <td>+3%</td>
+    <td>-3%</td>
     <td></td>
     <td></td>
     <td></td>
@@ -118,7 +118,7 @@ I find a relatively modest delusion level --consistent with micro-studies-- that
   </tr>
       <tr>
     <td>Poverty</td>
-    <td>+17%</td>
+    <td>-17%</td>
     <td></td>
     <td></td>
     <td></td>
