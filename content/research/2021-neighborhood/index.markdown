@@ -51,7 +51,7 @@ With residential income segregation, persistent delusion arises endogenously. In
 
 
 I develop a quantitative spatial model of parental decisions in which I incorporate the novel mechanism.
-Segregation --a form of spatial sorting partly based of ability shock-- generates information frictions that systematically distort parents' subjective beliefs and behavior.
+Segregation --a form of spatial sorting partly based of ability shock-- generates information frictions that systematically distort parents' subjective beliefs and behaviors.
 
 Using several United States representative datasets, I calibrate the model to the average commuting zone in the country. The calibrated model matches targeted and non-targeted parental behaviors and generates an endogenous distribution of subjective beliefs.
 
@@ -127,7 +127,7 @@ I find a relatively modest delusion level --consistent with micro-studies-- that
 </table>
 <div style="text-align: right; margin-top:-30px;" class="f7 mt0"> source: model generated data</div>
 
-I use the calibrated model to evaluate a housing voucher policy. In line with empirical evidence, the model predicts that housing vouchers improve the neighborhood quality of eligible families, raising children's future earnings. When scaling up the policy to 10\% of the lowest income families, general equilibrium responses in local prices and subjective beliefs amplify the effects on eligible households, reducing inequality and improving social mobility. Ignoring subjective belief responses significantly undermines the housing voucher policy effects.
+I use the calibrated model to evaluate a housing voucher policy. In line with empirical evidence, the model predicts that housing vouchers improve the neighborhood quality of eligible families, raising children's future earnings. When scaling up the policy, general equilibrium responses in local prices and subjective beliefs amplify the effects on eligible households, reducing inequality and improving social mobility. Ignoring subjective belief responses significantly undermines the housing voucher policy effects.
 
 
 <table class="f6  mw7" stye="max-width: 100%;display: flex;">
