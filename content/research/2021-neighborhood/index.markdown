@@ -69,7 +69,7 @@ I find a relatively modest delusion level --consistent with micro-studies-- that
 
 
 <table class="f6  mw7" stye="max-width: 100%;display: flex;">
-<caption>Effects of Social Learning - Changes due to Perfect Information Relative to Baseline Model</caption>
+<caption>Effects of Social Learning - Changes Due to Perfect Information Relative to Baseline Model</caption>
   <tr>
   	<th></th>
     <th></th>
