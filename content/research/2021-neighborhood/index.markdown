@@ -31,6 +31,7 @@ I propose a novel mechanism: neighborhood social learning about the technology o
 
 
 <table>
+<caption>Social learning in the Neighborhood</caption>
 <tr></tr>
 <tr><td><div class="f6"> Consider a world in which success depends on parental inputs -- neighborhood quality and parental time-- and ability shocks.
 
@@ -44,7 +45,7 @@ Ability shock perceptions are unbiased but bounded, which moderates extreme abil
 
 
 
-<div style="text-align: center;"><img src="../../img/social_learning.jpeg"   height="300" ></div>
+<div style="text-align: center;max-width: 100%;"><img src="../../img/social_learning.jpeg"   height="300" ></div>
 
 I develop a quantitative spatial model of parental decisions in which I incorporate the novel mechanism.
 Segregation --a form of spatial sorting partly based of ability shock-- generates information frictions that systematically distort parents' subjective beliefs and behavior.
@@ -64,7 +65,7 @@ Using several United States representative datasets, I calibrate the model to th
 I find a relatively modest delusion level --consistent with micro-studies-- that significantly affects the economy: inequality increases by 3%, and social mobility decreases by 12%. 
 
 
-<table class="f6  mw7">
+<table class="f6  mw7" stye="display: block;">
 <caption>Effects of Neighborhood Social Learning</caption>
   <tr>
   	<th></th>
@@ -126,7 +127,7 @@ I find a relatively modest delusion level --consistent with micro-studies-- that
 I use the calibrated model to evaluate a housing voucher policy. In line with empirical evidence, the model predicts that housing vouchers improve the neighborhood quality of eligible families, raising children's future earnings. When scaling up the policy to 10\% of the lowest income families, general equilibrium responses in local prices and subjective beliefs amplify the effects on eligible households, reducing inequality and improving social mobility. Ignoring subjective belief responses significantly undermines the housing voucher policy effects.
 
 
-<table class="f6  mw7">
+<table class="f6  mw7" stye="display: block;">
 <caption>Effects of a Housing Voucher Policy</caption>
   <tr>
   	<th></th>
