@@ -31,7 +31,7 @@ I propose a novel mechanism: social learning about the technology of skill forma
 
 
 <table>
-<caption>Social learning in the Neighborhood</caption>
+<caption>Social Learning in the Neighborhood</caption>
 <tr><td><div class="f6"> Consider a world in which success depends on parental inputs -- neighborhood quality and parental time-- and ability shocks.
 
 Information is imperfect; people are unaware of the returns to parental inputs and must learn about it. Young adults learn by observing older adults in their neighborhoods (social learning). They see average local successes and past parental inputs but only perceive their neighbors' ability shocks. 
