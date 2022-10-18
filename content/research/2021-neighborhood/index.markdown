@@ -11,7 +11,7 @@ full_abstract: false
 links:
 show_post_date: false
 ---
-By Suzanne Bellue
+<div style="text-align: left;" class="f6">By Suzanne Bellue</div>
 
 
 Parents' neighborhood choices shape children’s economic opportunities in the United States. However, most children raised in bottom-quality neighborhoods still live in low-quality neighborhoods in adulthood. 
@@ -19,7 +19,7 @@ Parents' neighborhood choices shape children’s economic opportunities in the U
 <div>                        
         <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
         <script src="../../js/matrixmobData1.js"  ></script>              
-        <div id="c8cd8b7a-b401-43d2-825c-336fd879e2c6" class="plotly-graph-div" style="height:500px; width:100%;"></div>            
+        <div id="c8cd8b7a-b401-43d2-825c-336fd879e2c6" class="plotly-graph-div" style="height:450px; width:100%;"></div>            
         <script src="../../js/matrixmobData2.js" ></script>          
         <div style="text-align: right;" class="f7"> source: AddHealth</div>
     </div>
@@ -44,7 +44,9 @@ Ability shock perceptions are unbiased but bounded, which moderates extreme abil
 
 
 
-<div style="text-align: center;max-width: 100%;"><img src="../../img/social_learning.jpeg"   ></div>
+<div style="text-align: center;max-width: 100%;"><img src="../../img/social_learning1.jpeg"   ></div>
+ <div style="text-align: right;" class="f7"> &copy; <a href="https://opportunityinsights.org/paper/social-capital-ii-determinants-of-economic-connectedness/">opportunityinsights</a></div>
+
 
 I develop a quantitative spatial model of parental decisions in which I incorporate the novel mechanism.
 Segregation --a form of spatial sorting partly based of ability shock-- generates information frictions that systematically distort parents' subjective beliefs and behavior.
@@ -55,7 +57,7 @@ Using several United States representative datasets, I calibrate the model to th
 <div>                        
         <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
         <script src="../../js/matrixmobModel12.js"></script>                
-        <div id="fe863b8b-acc1-4457-897f-08497b532913" class="plotly-graph-div" style="height:100%; width:100%;"></div>            
+        <div id="fe863b8b-acc1-4457-897f-08497b532913" class="plotly-graph-div" style="height:450px; width:100%;"></div>            
         <script src="../../js/matrixmobModel22.js"></script> 
          <div style="text-align: right;" class="f7"> source: model generated data</div>
   </div>   
