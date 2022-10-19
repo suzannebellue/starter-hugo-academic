@@ -23,9 +23,9 @@ Parents' neighborhood choices shape children’s economic opportunities in the U
 
 <div>                        
         <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
-        <script src="../../js/matrixmobData1.js"  ></script>              
-        <div id="c8cd8b7a-b401-43d2-825c-336fd879e2c6" class="plotly-graph-div" style="height:450px; width:100%;"></div>            
-        <script src="../../js/matrixmobData2.js" ></script>   
+         <script src="../../js/matrixmobData1.js"  ></script>                
+        <div id="d1b212c1-b722-400f-b05f-8ee77950a910" class="plotly-graph-div" style="height:100%; width:100%;"></div>           
+         <script src="../../js/matrixmobData2.js" ></script>           
         <div style="text-align: justify;" class="f7"> Note: Probability of moves conditionnal on childhood neighborhood quality. Quality is proxied by census tract household median income. Each neighborhood represents a decile of the census tract quality distribution. Almost half of the children raised in the bottom-decile of the neighborhood quality distribution live in the bottom-quintile of the neighbohood quality distibution in adulhood. </div>
         <div style="text-align: right;" class="f7"> Source: AddHealth</div>
     </div>
