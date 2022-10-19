@@ -20,14 +20,15 @@ Parents' neighborhood choices shape children’s economic opportunities in the U
         <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
         <script src="../../js/matrixmobData1.js"  ></script>              
         <div id="c8cd8b7a-b401-43d2-825c-336fd879e2c6" class="plotly-graph-div" style="height:450px; width:100%;"></div>            
-        <script src="../../js/matrixmobData2.js" ></script>          
-        <div style="text-align: right;" class="f7"> source: AddHealth</div>
+        <script src="../../js/matrixmobData2.js" ></script>   
+        <div style="text-align: justify;" class="f7"> Note: Probability of moves conditionnal on childhood neighborhood quality. Quality is proxied by census tract household median income. Each neighborhood represents a decile of the census tract quality distribution. Almost half of the children raised in the bottom-decile of the neighborhood quality distribution live in the bottom-quintile of the neighbohood quality distibution in adulhood. </div>
+        <div style="text-align: right;" class="f7"> Source: AddHealth</div>
     </div>
 
 
-**Could parents' neighborhood choices also affect their children's future choices?**
+Do parents' neighborhood choices also affect their children's future choices?
 
-I propose a novel mechanism: social learning about the technology of skill formation in the neighborhood. 
+I propose a novel mechanism to help understand parents' decisions across generations and socioeconomic groups: social learning about the technology of skill formation in the neighborhood. 
 
 
 <table>
@@ -40,18 +41,12 @@ Young adults' inference of the returns crucially depends on the accuracy of thei
 
 Ability shock perceptions are unbiased but bounded, which leads to moderate perceptions of ability shocks. Therefore, the larger the ability shocks in a given neighborhood, the more young adults underestimate local ability shocks and become over-optimistic. Conversely, the smaller the ability shocks in a given neighborhood, the more young adults overestimate local ability shocks and become pessimistic.  
 
-With residential income segregation, persistent delusion arises endogenously. In high-quality neighborhoods, live, on average, over-optimistic and wealthy parents with high-ability shocks. Their children become over-optimistic and tend to stay. In low-quality neighborhoods live, on average, pessimistic and low-income parents with low-ability shocks. Their children become pessimistic and tend to stay.  </div ></td></tr>
+With residential income segregation --a form of spatial sorting partly based on ability shock--, persistent delusion arises endogenously. In high-quality neighborhoods, live, on average, over-optimistic and wealthy parents with high-ability shocks. Their children become over-optimistic and tend to stay. In low-quality neighborhoods live, on average, pessimistic and low-income parents with low-ability shocks. Their children become pessimistic and tend to stay.  </div ></td></tr>
 </table>
 
 
-
-
-<div style="text-align: center;max-width: 100%;"><img src="../../img/social_learning1.jpeg"   ></div>
- <div style="text-align: right;" class="f7"> &copy; <a href="https://opportunityinsights.org/paper/social-capital-ii-determinants-of-economic-connectedness/">opportunityinsights</a></div>
-
-
-I develop a quantitative spatial model of parental decisions in which I incorporate the novel mechanism.
-Segregation --a form of spatial sorting partly based of ability shock-- generates information frictions that systematically distort parents' subjective beliefs and behaviors.
+I depart from the perfect information assumptions and develop a quantitative spatial model of parental decisions in which I incorporate the novel mechanism.
+In the model, segregation generates information frictions that systematically distort parents' subjective beliefs and behaviors.
 
 Using several United States representative datasets, I calibrate the model to the average commuting zone in the country. The calibrated model matches targeted and non-targeted parental behaviors and generates an endogenous distribution of subjective beliefs.
 
@@ -61,11 +56,12 @@ Using several United States representative datasets, I calibrate the model to th
         <script src="../../js/matrixmobModel12.js"></script>                
         <div id="fe863b8b-acc1-4457-897f-08497b532913" class="plotly-graph-div" style="height:450px; width:100%;"></div>            
         <script src="../../js/matrixmobModel22.js"></script> 
+      <div style="text-align: justify;" class="f7"> Note: Model generated probability of moves conditionnal on childhood neighborhood quality. Each neighborhood represents a decile of the census tract quality distribution in the data. In the model too, almost half of the children raised in the bottom-decile of the neighborhood quality distribution live in the bottom-quintile of the neighbohood quality distibution in adulhood. </div>
          <div style="text-align: right;" class="f7"> source: model generated data</div>
   </div>   
     
 
-I find a relatively modest delusion level --consistent with micro-studies-- that significantly affects the economy. Delusion is asymmetric across the income distribution. Low-income parents underestimate the returns more than high-income households overestimate them. Inequality would be 3% lower and social mobility 12% higher if parents knew the returns.
+The model generates a relatively modest delusion level --consistent with micro-studies-- that significantly affects the economy. Delusion is asymmetric across the income distribution. Under perfect information, low-income parents' perceived returns would be 17% higher while those of high-income parents would be 7% lower. This deviation from perfect information has large effects on the american dream. Under perfect information, inequality would be 3% lower and social mobility 12% higher.
 
 
 <table class="f6  mw7" stye="max-width: 100%;display: flex;">
@@ -127,7 +123,7 @@ I find a relatively modest delusion level --consistent with micro-studies-- that
 </table>
 <div style="text-align: right; margin-top:-30px;" class="f7 mt0"> source: model generated data</div>
 
-I use the calibrated model to evaluate a housing voucher policy. In line with empirical evidence, the model predicts that housing vouchers improve the neighborhood quality of eligible families, raising children's future earnings. When scaling up the policy, general equilibrium responses in local prices and subjective beliefs amplify the effects on eligible households, reducing inequality and improving social mobility. Ignoring subjective belief responses significantly undermines the housing voucher policy effects.
+Segregation distortion effects motivate a government intervention. I use the calibrated model to evaluate a housing voucher policy. In line with empirical evidence, the model predicts that housing vouchers improve the neighborhood quality of eligible families, raising children's future earnings. When scaling up the policy, general equilibrium responses in local prices and subjective beliefs amplify the effects on eligible households, reducing inequality and improving social mobility. However, ignoring the change in the information friction significantly undermines the housing voucher policy effects.
 
 
 <table class="f6  mw7" stye="max-width: 100%;display: flex;">
@@ -136,9 +132,11 @@ I use the calibrated model to evaluate a housing voucher policy. In line with em
   	<th></th>
     <th></th>
     <th></th>
+    <th></th>
     <th colspan="3">Income Quartile</th>
   </tr>
   <tr>
+  	<th></th>
   	<th></th>
     <th>All</th>
     <th>1st</th>
@@ -147,14 +145,15 @@ I use the calibrated model to evaluate a housing voucher policy. In line with em
     <th>4th</th>
   </tr>
   <tr>
-    <td>Perceived Returns</td>
+    <td rowspan=5>Baseline Model</td>
+    <td >Perceived Returns</td>
     <td>+2.8%</td>
     <td>+7.1%</td>
     <td>+3.3%</td>
     <td>+2.2%</td>
     <td>+0.2%</td>
   </tr>
-    <tr>
+  <tr>
     <td>Parental Time</td>
     <td>+2.6%</td>
     <td>+8.0%</td>
@@ -162,7 +161,7 @@ I use the calibrated model to evaluate a housing voucher policy. In line with em
     <td>+1.2%</td>
     <td>+1.3%</td>
   </tr>
-      <tr>
+  <tr>
     <td>Social Mobility</td>
     <td>+3.8%</td>
     <td></td>
@@ -178,9 +177,50 @@ I use the calibrated model to evaluate a housing voucher policy. In line with em
     <td></td>
      <td></td>
   </tr>
-      <tr>
+  <tr>
     <td>Poverty</td>
     <td>-6.3%</td>
+    <td></td>
+    <td></td>
+    <td></td>
+     <td></td>
+  </tr>
+  <tr>
+  	<td rowspan=5>Ignoring Information Friction Change</td>
+  	<td >Perceived Returns</td>
+    <td>-0.0%</td>
+    <td>+0.5%</td>
+    <td>-0.2%</td>
+    <td>-0.2%</td>
+    <td>+0.0%</td>
+  </tr>
+  <tr>
+    <td>Parental Time</td>
+    <td>-1.2%</td>
+    <td>-1.6%</td>
+    <td>-2.4%</td>
+    <td>-1.5%</td>
+    <td>+0.8%</td>
+  </tr>
+  <tr>
+    <td>Social Mobility</td>
+    <td>-0.5%</td>
+    <td></td>
+    <td></td>
+    <td></td>
+     <td></td>
+  </tr>
+  <tr>
+    <td>Inequality</td>
+    <td>+0.0%</td>
+    <td></td>
+    <td></td>
+    <td></td>
+     <td></td>
+  </tr>
+    <tr>
+    <td>Poverty</td>
+    <td>+1.3%</td>
     <td></td>
     <td></td>
     <td></td>
