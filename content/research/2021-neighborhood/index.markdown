@@ -34,7 +34,7 @@ I propose a novel mechanism to help understand parents' decisions across generat
 
 <table>
 <caption>Social Learning in the Neighborhood</caption>
-<tr><td><div class="f6"> Consider a world in which success depends on parental inputs -- neighborhood quality and parental time-- and ability shocks.
+<tr><td><div class="f6"> Consider a world in which success depends on parental inputs -neighborhood quality and parental time- and ability shocks -which can be interpreted to some extent as luck. 
 
 Information is imperfect; people are unaware of the returns to parental inputs and must learn about it. Young adults learn by observing older adults in their neighborhoods (social learning). They see average local successes and past parental inputs but only perceive their neighbors' ability shocks. 
 
@@ -42,7 +42,7 @@ Young adults' inference of the returns crucially depends on the accuracy of thei
 
 Ability shock perceptions are unbiased but bounded, which leads to moderate perceptions of ability shocks. Therefore, the larger the ability shocks in a given neighborhood, the more young adults underestimate local ability shocks and become over-optimistic. Conversely, the smaller the ability shocks in a given neighborhood, the more young adults overestimate local ability shocks and become pessimistic.  
 
-With residential income segregation --a form of spatial sorting partly based on ability shock--, persistent delusion arises endogenously. In high-quality neighborhoods, live, on average, over-optimistic and wealthy parents with high-ability shocks. Their children become over-optimistic and tend to stay. In low-quality neighborhoods live, on average, pessimistic and low-income parents with low-ability shocks. Their children become pessimistic and tend to stay.  </div ></td></tr>
+With residential income segregation --a form of spatial sorting partly based on ability shock--, persistent delusion arises endogenously. In high-quality neighborhoods, live, on average, over-optimistic and wealthy parents with high-ability shocks. Their children become over-optimistic and tend to stay. In low-quality neighborhoods live, on average, pessimistic and low-income parents with low-ability shocks. Their children become pessimistic and tend to stay.</div ></td></tr>
 </table>
 
 
@@ -60,7 +60,7 @@ Using several United States representative datasets, I calibrate the model to th
         <div id="fe863b8b-acc1-4457-897f-08497b532913" class="plotly-graph-div" style="height:450px; width:100%;"></div>            
         <script src="../../js/matrixmobModel22.js"></script> 
       <div style="text-align: justify;" class="f7"> Note: Model generated probability of moves conditionnal on childhood neighborhood quality. Each neighborhood represents a decile of the census tract quality distribution in the data. In the model too, almost half of the children raised in the bottom-decile of the neighborhood quality distribution live in the bottom-quintile of the neighbohood quality distibution in adulhood. </div>
-         <div style="text-align: right;" class="f7"> source: model generated data</div>
+         <div style="text-align: right;" class="f7"> Source: Model generated data</div>
   </div>   
     
 
@@ -124,7 +124,7 @@ The model generates a relatively modest delusion level --consistent with micro-s
      <td></td>
   </tr>
 </table>
-<div style="text-align: right; margin-top:-30px;" class="f7 mt0"> source: model generated data</div>
+<div style="text-align: right; margin-top:-30px;" class="f7 mt0"> Source: Model generated data</div>
 
 Segregation distortion effects motivate a government intervention. I use the calibrated model to evaluate a housing voucher policy. In line with empirical evidence, the model predicts that housing vouchers improve the neighborhood quality of eligible families, raising children's future earnings. When scaling up the policy, general equilibrium responses in local prices and subjective beliefs amplify the effects on eligible households, reducing inequality and improving social mobility. However, ignoring the change in the information friction significantly undermines the housing voucher policy effects.
 
@@ -230,4 +230,4 @@ Segregation distortion effects motivate a government intervention. I use the cal
      <td></td>
   </tr>
 </table>
-<div style="text-align: right; margin-top:-30px;" class="f7"> source: model generated data</div>
+<div style="text-align: right; margin-top:-30px;" class="f7"> Source: Model generated data</div>
