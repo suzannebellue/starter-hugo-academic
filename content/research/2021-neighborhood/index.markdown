@@ -12,9 +12,10 @@ links:
 show_post_date: false
 ---
 <div style="text-align: left;" class="f6">By Suzanne Bellue</div>
+<div style="text-align: center;max-width: 100%;"><img src="../../img/nbh.png"   ></div>
 
 
-Parents' neighborhood choices shape children’s economic opportunities in the United States. However, most children raised in bottom-quality neighborhoods still live in low-quality neighborhoods in adulthood. 
+Parents' neighborhood choices shape children’s economic opportunities in the United States. But, most children raised in bottom-quality neighborhoods still live in low-quality neighborhoods in adulthood. 
 
 <div>                        
         <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
@@ -43,6 +44,8 @@ Ability shock perceptions are unbiased but bounded, which leads to moderate perc
 
 With residential income segregation --a form of spatial sorting partly based on ability shock--, persistent delusion arises endogenously. In high-quality neighborhoods, live, on average, over-optimistic and wealthy parents with high-ability shocks. Their children become over-optimistic and tend to stay. In low-quality neighborhoods live, on average, pessimistic and low-income parents with low-ability shocks. Their children become pessimistic and tend to stay.  </div ></td></tr>
 </table>
+
+
 
 
 I depart from the perfect information assumptions and develop a quantitative spatial model of parental decisions in which I incorporate the novel mechanism.
