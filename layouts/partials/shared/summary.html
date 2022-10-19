@@ -56,12 +56,15 @@
     <footer>
 
   <div class="ph0 pt2 ">
+     {{ if .Params.show_links }}
   {{ if .Params.links }}
   {{ partial "shared/btn-links.html" . }}
   {{ end }}
+     {{ end }}
   {{ if .Params.full_abstract }}
      <a class="btn-links mr2 ba dib" href="{{ .RelPermalink }}"><i class="fa-lg fa-fw mr1"></i>Summary</a>
   {{ end }}
+
   </div>
 
 

@@ -10,6 +10,7 @@ summary: "We conduct a randomized study to assess the impact of an in-service te
 teachers in a way that has deep and long-lasting influence on their practices."
 featured: yes
 full_abstract: no
+show_links: yes
 links:
 - icon: file-pdf
   icon_pack: fa

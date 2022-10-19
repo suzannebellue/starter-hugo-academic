@@ -8,6 +8,7 @@ tags:
 summary: " "
 featured: yes
 full_abstract: no
+show_links: yes
 links:
 show_post_date: false
 ---

@@ -8,6 +8,7 @@ tags:
 summary: 'Targeting is a central challenge in the administration of anti-poverty programs: given available data, how does one rapidly identify the individuals and families with the greatest need? Here we show that non-traditional “big” data from satellites and mobile phone networks can improve the targeting of anti-poverty programs. Our analysis compares outcomes – including exclusion errors, total social welfare, and measures of fairness – under different targeting regimes. Relative to other feasible targeting options, the machine learning approach reduces errors of exclusion by 4-21%. These results highlight the potential for new data sources to contribute to humanitarian response efforts, particularly in crisis settings when traditional data are missing or out of date.'
 featured: yes
 full_abstract: no
+show_links: yes
 links:
 - icon: newspaper
   icon_pack: fa

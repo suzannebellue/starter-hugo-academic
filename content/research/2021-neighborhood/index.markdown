@@ -1,7 +1,7 @@
 ---
 title: "Why Don't Poor Families Move? A Spatial Equilibrium of Parental Decisions with Imperfect Information"
 author: ''
-date: '2021-04-03'
+date: '2022-10-19'
 slug: neighborhoods
 tags:
   - Job Market Paper
@@ -9,11 +9,15 @@ summary: "Parents' neighborhood choices shape children’s economic opportunitie
 featured: yes
 full_abstract: false
 links:
+- icon: file-pdf
+  icon_pack: fa
+  name: 
+  url: research/neighborhoods/Bellue_JMP_Neighborhoods.pdf
 show_post_date: false
+show_links: false
+images:
+  - ../../img/nbh.png
 ---
-<div style="text-align: left;" class="f6">By Suzanne Bellue</div>
-<div style="text-align: center;max-width: 100%;"><img src="../../img/nbh.png"   ></div>
-
 
 Parents' neighborhood choices shape children’s economic opportunities in the United States. But, most children raised in bottom-quality neighborhoods still live in low-quality neighborhoods in adulthood. 
 
