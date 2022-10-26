@@ -1,5 +1,5 @@
 ---
-title: "Why Don't Poor Families Move? A Spatial Equilibrium of Parental Decisions with Imperfect Information"
+title: "Why Don't Poor Families Move? A Spatial Equilibrium Analysis of Parental Decisions with Social Learning"
 author: ''
 date: '2022-10-19'
 slug: neighborhoods
