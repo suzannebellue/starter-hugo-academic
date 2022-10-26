@@ -14,7 +14,7 @@ links:
   name: 
   url: research/neighborhoods/Bellue_JMP_Neighborhoods.pdf
 show_post_date: false
-show_links: false
+show_links: yes
 images:
   - ../../img/nbh.png
 ---
