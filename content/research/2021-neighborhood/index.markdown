@@ -40,19 +40,19 @@ I propose a novel mechanism to help understand parents' decisions across generat
 <caption>Social Learning in the Neighborhood</caption>
 <tr><td><div class="f6"> Consider a world in which success depends on parental inputs -neighborhood quality and parental time- and ability shocks -which can be interpreted to some extent as luck. 
 
-Information is imperfect; people are unaware of the returns to parental inputs and must learn about it. Young adults learn by observing older adults in their neighborhoods (social learning). They see average local successes and past parental inputs but only perceive their neighbors' ability shocks. 
+Information is imperfect; people are unaware of the returns to parental inputs and must learn about them. Young adults learn by observing older adults in their neighborhoods (social learning). They see average local successes and past parental inputs but only perceive their neighbors' ability shocks. 
 
-Young adults' inference of the returns crucially depends on the accuracy of their perception. If they underestimate local ability shocks, they implicitly attribute too little of the local successes to those shocks and become over-optimistic about the returns to parental inputs. Conversely, if they overestimate them, they become pessimistic about the returns.
+Young adults' inference of the returns crucially depends on the accuracy of their perception. If they underestimate local ability shocks, they implicitly attribute too little of the local successes to those shocks and too much to parental inputs: they become over-optimistic about the returns to parental inputs. Conversely, if they overestimate them, they become pessimistic about the returns.
 
 Ability shock perceptions are unbiased but bounded, which leads to moderate perceptions of ability shocks. Therefore, the larger the ability shocks in a given neighborhood, the more young adults underestimate local ability shocks and become over-optimistic. Conversely, the smaller the ability shocks in a given neighborhood, the more young adults overestimate local ability shocks and become pessimistic.  
 
-With residential income segregation --a form of spatial sorting partly based on ability shock--, persistent delusion arises endogenously. In high-quality neighborhoods, live, on average, over-optimistic and wealthy parents with high-ability shocks. Their children become over-optimistic and tend to stay. In low-quality neighborhoods live, on average, pessimistic and low-income parents with low-ability shocks. Their children become pessimistic and tend to stay.</div ></td></tr>
+With residential income segregation --a form of spatial sorting partly based on ability shocks--, persistent delusion arises endogenously. In high-quality neighborhoods, live, on average, over-optimistic and wealthy parents with high-ability shocks. Their children become over-optimistic and tend to stay. In low-quality neighborhoods live, on average, pessimistic and low-income parents with low-ability shocks. Their children become pessimistic and tend to stay.</div ></td></tr>
 </table>
 
 
 
 
-I depart from the perfect information assumptions and develop a quantitative spatial model of parental decisions in which I incorporate the novel mechanism.
+I depart from the perfect information assumptions and develop a quantitative spatial model of parental decisions in which I incorporate the novel mechanism: social learning about the returns to parental inputs.
 In the model, segregation generates information frictions that systematically distort parents' subjective beliefs and behaviors.
 
 Using several United States representative datasets, I calibrate the model to the average commuting zone in the country. The calibrated model matches targeted and non-targeted parental behaviors and generates an endogenous distribution of subjective beliefs.
@@ -130,7 +130,7 @@ The model generates a relatively modest delusion level --consistent with micro-s
 </table>
 <div style="text-align: right; margin-top:-30px;" class="f7 mt0"> Source: Model generated data</div>
 
-Segregation distortion effects motivate a government intervention. I use the calibrated model to evaluate a housing voucher policy. In line with empirical evidence, the model predicts that housing vouchers improve the neighborhood quality of eligible families, raising children's future earnings. When scaling up the policy, general equilibrium responses in local prices and subjective beliefs amplify the effects on eligible households, reducing inequality and improving social mobility. However, ignoring the change in the information friction significantly undermines the housing voucher policy effects.
+Segregation distortion effects motivate a government intervention. I use the calibrated model to evaluate a housing voucher policy. In line with empirical evidence, the model predicts that housing vouchers improve the neighborhood quality of eligible families, raising children's future earnings. When scaling up the policy, general equilibrium responses in local prices and subjective beliefs amplify the effects on eligible households, reducing inequality and improving social mobility. However, ignoring the change in the information frictions significantly undermines the housing voucher policy effects.
 
 
 <table class="f6  mw7" stye="max-width: 100%;display: flex;">
