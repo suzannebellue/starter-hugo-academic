@@ -7,7 +7,7 @@ thumbnail_left: true # for list-sidebar only
 show_author_byline: true
 show_post_date: false
 # for listing page layout
-layout: list # list, list-sidebar, list-grid
+layout: list  # list, list-sidebar, list-grid
 
 # for list-sidebar layout
 sidebar: 
@@ -24,7 +24,7 @@ sidebar:
 cascade:
   author: "Suzanne Bellue"
   show_author_byline: true
-  show_post_date: true
+  show_post_date: false
   show_comments: false # see site config to choose Disqus or Utterances
   # for single-sidebar layout
   sidebar:
