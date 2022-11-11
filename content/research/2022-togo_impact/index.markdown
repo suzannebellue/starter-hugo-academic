@@ -1,6 +1,6 @@
 ---
 title: "The Impact of Cash Transfers in Togo: Digital Data Do Not Recover Treatment Effects Found in Survey Data"
-author: "[Emily Aiken](https://emilylaiken.github.io/), [Joshua Blumenstock](https://www.jblumenstock.com/), [Dean Karlan](http://deankarlan.com/) and [Chris Udry](https://sites.northwestern.edu/christopherudry/) and [Joshua Blumenstock](https://www.jblumenstock.com/)"
+author: "[Emily Aiken](https://emilylaiken.github.io/), [Joshua Blumenstock](https://www.jblumenstock.com/), [Dean Karlan](http://deankarlan.com/) and [Chris Udry](https://sites.northwestern.edu/christopherudry/) "
 date: '2022-10-26'
 slug: togoimpact
 tags:
