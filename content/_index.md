@@ -22,4 +22,4 @@ In [my job market paper](research/neighborhoods/Bellue_JMP_Neighborhoods.pdf), I
 
 I am on the 2022-23 economics job market and will be available for interviews. 
 
-You can find more about my [research](research) and [CV](uploads/resume.pdf).
+Find out more about my [research](research) and [CV](uploads/resume.pdf).
