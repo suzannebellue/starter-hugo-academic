@@ -12,7 +12,7 @@ featured: yes
 full_abstract: no
 show_links: yes
 links:
-- icon: file-publi
+- icon: file-paper
   icon_pack: fa
   name: 
   url: research/teacher-training/Bellue_etal_JHR2022_revised.pdf

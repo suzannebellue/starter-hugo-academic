@@ -10,7 +10,7 @@ featured: yes
 full_abstract: no
 show_links: yes
 links:
-- icon: file-publi
+- icon: file-paper
   icon_pack: fa
   name: 
   url: https://www.nature.com/articles/s41586-022-04484-9
