@@ -9,7 +9,7 @@ summary: "In the United States, childhood neighborhood quality shapes adulthood 
 featured: yes
 full_abstract: false
 links:
-- icon: file-pdf
+- icon: file-publi
   icon_pack: fa
   name: 
   url: research/neighborhoods/Bellue_JMP_Neighborhoods.pdf

@@ -478,7 +478,9 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-file-medical:before { content: fa-content($fa-var-file-medical); }
 .#{$fa-css-prefix}-file-medical-alt:before { content: fa-content($fa-var-file-medical-alt); }
 .#{$fa-css-prefix}-file-pdf:before { content: fa-content($fa-var-file-pdf); }
-.#{$fa-css-prefix}-file-powerpoint:before { content: fa-content($fa-var-file-powerpoint); }
+.#{$fa-css-prefix}-file-publi:before { content: fa-content($fa-var-file-publi); }
+.#{$fa-css-prefix}-file-wpaper:before { content: fa-content($fa-var-file-wpaper); }
+.#{$fa-css-prefix}-file-slides:before { content: fa-content($fa-var-file-powerpoint); }
 .#{$fa-css-prefix}-file-prescription:before { content: fa-content($fa-var-file-prescription); }
 .#{$fa-css-prefix}-file-signature:before { content: fa-content($fa-var-file-signature); }
 .#{$fa-css-prefix}-file-upload:before { content: fa-content($fa-var-file-upload); }

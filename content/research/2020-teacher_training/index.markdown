@@ -12,11 +12,11 @@ featured: yes
 full_abstract: no
 show_links: yes
 links:
-- icon: file-pdf
+- icon: file-publi
   icon_pack: fa
   name: 
   url: research/teacher-training/Bellue_etal_JHR2022_revised.pdf
-- icon: link
+- icon: newspaper
   icon_pack: fa
   name: J-PAL
   url: https://www.povertyactionlab.org/evaluation/teacher-training-and-student-achievement-science-evidence-france
