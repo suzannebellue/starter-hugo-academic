@@ -5,7 +5,7 @@ date: '2022-10-19'
 slug: neighborhoods
 tags:
   - Job Market Paper
-summary: "In the United States, childhood neighborhood quality shapes adulthood economic opportunities. However, most children raised in bottom-quality neighborhoods still live in low-quality neighborhoods in adulthood. Could childhood neighborhood directly affect adulthood choices? I develop a quantitative spatial model of parental decisions that incorporates a novel mechanism: social learning about the technology of skill formation. Segregation generates information frictions that systematically distort parents' subjective beliefs and behaviors. I calibrate the model using several United States representative datasets. The calibrated model matches targeted and non-targeted parental behaviors and generates an endogenous distribution of subjective beliefs. I find a relatively modest level of delusion that increases inequality by 3% and decreases intergenerational mobility by  12%. A housing voucher policy improves the neighborhood quality of eligible families, raising children's future earnings. When scaling up the policy, long-run and general equilibrium responses in subjective beliefs amplify the policy effects. Inequality reduces, and intergenerational mobility improves."
+summary: "In the United States, childhood neighborhood quality shapes adulthood economic opportunities. However, most children raised in bottom-quality neighborhoods still live in low-quality neighborhoods in adulthood. Could childhood neighborhood directly affect adulthood choices? I develop a quantitative spatial model of parental decisions that incorporates a novel mechanism: social learning about the technology of skill formation. Segregation generates information frictions that systematically distort parents' subjective beliefs and behavior. I calibrate the model using several United States representative datasets. The calibrated model matches targeted and non-targeted parental behavior and generates an endogenous distribution of subjective beliefs. I find a relatively modest level of delusion that increases inequality by 3% and decreases intergenerational mobility by  12%. A housing voucher policy improves the neighborhood quality of eligible families, raising children's future earnings. When scaling up the policy, long-run and general equilibrium responses in subjective beliefs amplify the policy effects. Inequality reduces, and intergenerational mobility improves."
 featured: yes
 full_abstract: false
 links:
@@ -53,9 +53,9 @@ With residential income segregation --a form of spatial sorting partly based on 
 
 
 I depart from the perfect information assumptions and develop a quantitative spatial model of parental decisions in which I incorporate the novel mechanism: social learning about the returns to parental inputs.
-In the model, segregation generates information frictions that systematically distort parents' subjective beliefs and behaviors.
+In the model, segregation generates information frictions that systematically distort parents' subjective beliefs and behavior.
 
-Using several United States representative datasets, I calibrate the model to the average commuting zone in the country. The calibrated model matches targeted and non-targeted parental behaviors and generates an endogenous distribution of subjective beliefs.
+Using several United States representative datasets, I calibrate the model to the average commuting zone in the country. The calibrated model matches targeted and non-targeted parental behavior and generates an endogenous distribution of subjective beliefs.
 
 
 <div>                        
