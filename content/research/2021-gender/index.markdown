@@ -12,7 +12,7 @@ show_links: yes
 links:
 - icon: file-slides
   icon_pack: fa
-  name: 
+  name: slides
   url: research/gender/BellueMelentyeva_gendergapJtJ_2021.pdf
 show_post_date: false
 ---

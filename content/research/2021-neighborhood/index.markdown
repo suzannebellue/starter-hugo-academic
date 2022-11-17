@@ -11,7 +11,7 @@ full_abstract: false
 links:
 - icon: file-paper
   icon_pack: fa
-  name: 
+  name: working paper
   url: research/neighborhoods/Bellue_JMP_Neighborhoods.pdf
 show_post_date: false
 show_links: yes

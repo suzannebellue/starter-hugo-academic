@@ -48,12 +48,16 @@
       {{ end }}
       {{ if $root.Params.show_author_byline }}<p class="f6 db mv2 ">{{ if .Params.author }} with {{ .Params.author | markdownify | emojify }}{{ end }}{{ with .Params.categories }} in{{ range . }} <a href="{{ "categories/" | absURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}{{ end }}</p>{{ end }}
       {{ if $root.Params.show_post_date }}<p class="f7 db mv2">{{ .PublishDate.Format "January 2, 2006" }}</p>{{ end }}
+      
+
     </header>
     {{ if .Params.summary }}
       {{ $summary := cond (ne .Params.excerpt nil) .Params.excerpt .Summary }}
       {{ with $summary }}<p class="f6 lh-copy mb2">{{ . | markdownify | emojify }}</p>{{ end }}
       {{ end }}
-    <footer>
+
+  </div>
+            <footer>
 
   <div class="ph0 pt2 ">
      {{ if .Params.show_links }}
@@ -69,7 +73,6 @@
 
 
   </footer>
-  </div>
   {{ end }}
 
 </article>

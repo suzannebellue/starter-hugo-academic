@@ -14,7 +14,7 @@ show_links: yes
 links:
 - icon: file-paper
   icon_pack: fa
-  name: 
+  name: working paper
   url: research/teacher-training/Bellue_etal_JHR2022_revised.pdf
 - icon: newspaper
   icon_pack: fa

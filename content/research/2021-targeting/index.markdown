@@ -12,7 +12,7 @@ show_links: yes
 links:
 - icon: file-paper
   icon_pack: fa
-  name: 
+  name: paper
   url: https://www.nature.com/articles/s41586-022-04484-9
 - icon: file-video
   icon_pack: fa
