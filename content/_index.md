@@ -8,8 +8,8 @@ text_align_left: true
 author: "Suzanne Bellue"
 role: ""
 show_contact: true # specify social accounts in site config
-email_link: "mailto:sbellue@mail.uni-mannheim.de" 
-email_label: "sbellue[at]mail.uni-mannheim.de"
+email_link: "mailto:suzanne.bellue@uni-mannheim.de" 
+email_label: "suzanne.bellue[at]uni-mannheim.de"
 type: home
 ---
 
