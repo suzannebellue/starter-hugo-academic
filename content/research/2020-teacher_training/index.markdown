@@ -15,7 +15,7 @@ links:
 - icon: file-paper
   icon_pack: fa
   name: working paper
-  url: research/teacher-training/Bellue_etal_JHR2022_revised.pdf
+  url: research/teacher-training/Bellue_etal_082023.pdf
 - icon: newspaper
   icon_pack: fa
   name: J-PAL
