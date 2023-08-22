@@ -17,7 +17,6 @@ Assistant Professor of Economics, [ENSAE - CREST](https://www.ensae.fr/en/resear
  
 PhD  in economics from [Graduate School of Economic and Social Sciences](https://www.uni-mannheim.de/gess/), [Mannheim University](https://www.vwl.uni-mannheim.de/en/). 
 
-My research interests include macroeconomics, public, labor, and development economics.
-In [my job market paper](research/neighborhoods/Bellue_JMP_Neighborhoods.pdf), I wonder why poor families don't move. I find that imperfect information about skill formation and social learning within neighborhoods rationalize part of low spatial and social mobility in the United States. Housing voucher policies, in the long run, can mitigate the adverse effects of segregation on inequality and social mobility.
+My research interests include macroeconomics, family, labor, and development economics.
 
 Find out more about my [research](research) and [CV](uploads/resume.pdf).
