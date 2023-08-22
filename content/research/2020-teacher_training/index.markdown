@@ -1,5 +1,5 @@
 ---
-title: "Teacher Training Program, Teacher Practices and Student Performance in Science: Evidence from a Randomized Study in French Primary Schools"
+title: "When Effective Teacher Training Falls Short in the Classroom: Evidence from an Experiment in Primary Schools"
 author: "[Adrien Bouguen](https://adrienbouguen.com/), [Marc Gurgand](https://www.parisschoolofeconomics.eu/en/gurgand-marc/), Valerie Munier and [André Tricot](http://andre.tricot.pagesperso-orange.fr/). "
 date: '2020-11-03'
 slug: teacher-training
