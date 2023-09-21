@@ -11,7 +11,7 @@ full_abstract: no
 show_post_date: false
 show_links: yes
 links:
-- icon: file-paper
+- icon: 
   icon_pack: fa
   name: working paper
   url: https://lukasmahler.github.io/assets/pdf/BellueMahler-July2023.pdf

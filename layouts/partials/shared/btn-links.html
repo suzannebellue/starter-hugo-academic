@@ -12,6 +12,6 @@
     {{ else if in (slice "http" "https") $scheme }}
       {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
     {{ end }}  
-  <a class="btn-links mr2 ba dib" href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>{{ if .name }}{{ with .icon }}<i class="{{ $pack }} {{ $pack_prefix }}-{{ . }} fa-lg fa mr2"></i>{{ end }}{{ .name }}
+  <a class="btn-links ba mr1 dib " href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>{{ if .name }}{{ with .icon }}<i class="{{ $pack }} {{ $pack_prefix }}-{{ . }} fa-lg fa mr2"></i>{{ end }}{{ .name }}
   {{ else }}{{ with .icon }}<i class="{{ $pack }} {{ $pack_prefix }}-{{ . }} fa-lg fa"></i>{{ end }}{{ .name }}{{ end }}</a>
 {{ end }}

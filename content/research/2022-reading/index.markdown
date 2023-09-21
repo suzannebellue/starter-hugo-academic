@@ -6,7 +6,7 @@ slug: reading
 tags:
   - Work in progress
 summary: "This study aimed to design, implement and analyze the effectiveness of a multicomponent reading comprehension intervention for sixth-grade students with reading difficulties. We conducted a clustered randomized study with 21 French middle schools. In ten of them, teachers have implemented fluency workshops and explicit comprehension instruction. We measure the impact on 568 target students, and show no statistically significant effect of the intervention. The lack of statistical effects contrasts with observations indicating that, overall, the school leaders and the teachers declared to be satisfied with the proposed device and the actions conducted. However, our results align with a growing research base showing that setting up additional support and disseminating research tools is not enough to observe real progress in students’ performance. Indeed, our field observations revealed significant implementation difficulties. "
-featured: yes
+featured: true
 full_abstract: false
 links:
 show_post_date: false

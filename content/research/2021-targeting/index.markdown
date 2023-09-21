@@ -10,11 +10,11 @@ featured: yes
 full_abstract: no
 show_links: yes
 links:
-- icon: file-paper
+- icon: 
   icon_pack: fa
   name: paper
   url: https://www.nature.com/articles/s41586-022-04484-9
-- icon: file-video
+- icon:
   icon_pack: fa
   name: CEGA
   url: https://www.youtube.com/watch?v=Nl0GnJp9pqI&list=PLaFy9toa8O6PVA1kDfvgTRrIyoSYvZQjV&index=3
