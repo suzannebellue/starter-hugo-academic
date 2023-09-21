@@ -1,15 +1,18 @@
 ---
 title: "Macroeconomic Consequences of Early Education Tracking"
 author: "[Lukas Mahler](https://lukasmahler.github.io/)"
-date: '2022-10-27'
+date: '2023-09-10'
 slug: tracking
 tags:
-  - Work in progress
-summary: "This paper assesses the consequences of early school tracking on intergenerational social mobility and inequalities in Germany. We develop a quantitative, overlapping-generation life-cycle model in which we incorporate two critical elements of the debate around tracking in school: (i) homogeneous peer groups enhance learning (ii) however, there is uncertainty about the skills of young children and a strong influence of the socio-economic situation of the parents in the tracking decision. We quantify each channel by calibrating the model to match NEPS test score data---a representative panel of German pupils. We then use the calibrated model to assess the consequences of postponing school tracking on social mobility, inequality, and efficiency.
-*Slides for this project are available upon request.*" 
+  - Publications and working papers
+summary: "We study the long-run macroeconomic, distributional, and intergenerational effects of school tracking ---the allocation of students to different types of schools--- by incorporating school track decisions into a general-equilibrium heterogeneous-agent overlapping-generations model. The key ingredient in the model is the child skill production technology, where a child's skill development depends on her peers and the instruction pace in her school track. We show analytically that this technology can rationalize reduced-form evidence on the effects of school tracking on the distribution of child skills. We then calibrate the model using representative data from Germany, a country with a very early school tracking policy. Our calibrated model predicts that an education reform that postpones the tracking age from ten to fourteen generates sizable improvements in intergenerational mobility but comes at the cost of modest losses in aggregate human capital and economic output, reducing aggregate welfare. This efficiency-mobility trade-off is rooted in the effects of longer comprehensive schooling on child learning and depends crucially on the presence of general equilibrium effects in the labor market. Finally, our calibrated model predicts that policies reducing the parental influence in the school track choice increase both social mobility and aggregate economic output, improving aggregate welfare." 
 featured: yes
 full_abstract: no
+show_post_date: false
 show_links: yes
 links:
-show_post_date: false
+- icon: file-paper
+  icon_pack: fa
+  name: working paper
+  url: https://lukasmahler.github.io/assets/pdf/BellueMahler-July2023.pdf
 ---
