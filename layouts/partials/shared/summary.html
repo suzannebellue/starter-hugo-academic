@@ -43,7 +43,7 @@
   <div class=" center mb1-l">
     <header>
       {{ if .Params.paper_link }}<a  class="f5-l mv2 b no-underline" style="color:near-black" href={{ .Params.paper_link }}><h1 class="f5-l mv2 ">{{ .Title | markdownify }}</h1></a>
-      {{ else }}<h1 class="f5-l mv2 fw3-l" style="color:#282828">{{ .Title | markdownify }}</h1>{{ end }}
+      {{ else }}<h1 class="f5 lh-title  mv2 fw3" style="color:#282828">{{ .Title | markdownify }}</h1>{{ end }}
       {{ range first 1 (.GetTerms "series") }}
       <h2 class="f5"><i class="fas fa-stream fa-fw pr1"></i><small class="f5 ttu tracked">Series: </small><a class="link i dim" href="{{ $section.RelPermalink }}">{{ .LinkTitle }}</a></h2>
       {{ end }}
