@@ -444,7 +444,7 @@ audio {
 // button links in single page headers + listing page footers
 .post-header a.btn-links,
 article footer a.btn-links {
-    @extend .fw4, .ph2, .pv1, .mb2, .mt0, .f7, .ttc, .tracked-tight, .b--#{$borderColor}, .br4, .link,  .pointer, .bg-animate, .bg-transparent, .hover-bg-#{moon-gray}, .glow;
+    @extend .fw4, .ph2, .pv1, .mb2, .mt0, .f7, .ttc, .tracked-tight, .b--#{$borderColor}, .br4, .link,  .pointer, .bg-animate, .bg-transparent,  .hover-bg-#{moon-gray}, .glow;
 }
 
 // dividers for talks

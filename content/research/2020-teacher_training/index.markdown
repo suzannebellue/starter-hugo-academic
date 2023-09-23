@@ -9,14 +9,15 @@ summary: "Although in-service teacher training programs are designed to enhance 
 featured: yes
 full_abstract: no
 show_links: yes
-/*paper_link: research/teacher-training/Bellue_etal_082023.pdf*/
+paper_link: research/teacher-training/Bellue_etal_082023.pdf
 links:
-- icon: 
-  icon_pack: fa
-  name: working paper
-  url: research/teacher-training/Bellue_etal_082023.pdf
 - icon: 
   icon_pack: fa
   name: J-PAL
   url: https://www.povertyactionlab.org/evaluation/teacher-training-and-student-achievement-science-evidence-france
+  
+/*- icon: 
+  icon_pack: fa
+  name: working paper
+  url: research/teacher-training/Bellue_etal_082023.pdf */
 ---

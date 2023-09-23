@@ -25,7 +25,23 @@
   Dim element on hover by adding the dim class.
 
 */
-.dim {
+
+/* unvisited link */
+.dimc {
+  background-color: green;
+  transition: background-color .15s ease-in-out;
+}
+.dimc:hover,
+.dimc:focus {
+  background-color: red;
+  transition: background-color .15s ease-in;
+}
+.dimc:active {
+  background-color: yellow;
+  transition: background-color .15s ease-out;
+}
+
+.dimc {
   opacity: 1;
   transition: opacity .15s ease-in;
 }
