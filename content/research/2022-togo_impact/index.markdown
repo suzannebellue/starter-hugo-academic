@@ -1,7 +1,7 @@
 ---
 title: "Estimating Impact with Surveys versus Digital Traces: Evidence from Randomized Cash Transfers in Togo"
 author: "[Emily Aiken](https://emilylaiken.github.io/), [Joshua Blumenstock](https://www.jblumenstock.com/), [Dean Karlan](http://deankarlan.com/) and [Chris Udry](https://sites.northwestern.edu/christopherudry/) "
-date: '2022-10-26'
+date: '2023-09-10'
 slug: togoimpact
 tags:
   - Publications and working papers
