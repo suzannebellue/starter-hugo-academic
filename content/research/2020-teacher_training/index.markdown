@@ -1,6 +1,7 @@
 ---
 title: "When Effective Teacher Training Falls Short in the Classroom: Evidence from an Experiment in Primary Schools"
-author: "[Adrien Bouguen](https://adrienbouguen.com/), [Marc Gurgand](https://www.parisschoolofeconomics.eu/en/gurgand-marc/), Valerie Munier and [André Tricot](http://andre.tricot.pagesperso-orange.fr/). "
+author: "[Adrien Bouguen](https://adrienbouguen.com/), [Marc Gurgand](https://www.parisschoolofeconomics.eu/en/gurgand-marc/), Valerie Munier and [André Tricot](http://andre.tricot.pagesperso-orange.fr/)."
+shortdate: "08/2023 "
 date: '2023-08-20'
 slug: teacher-training
 tags:
@@ -9,7 +10,8 @@ summary: "Although in-service teacher training programs are designed to enhance 
 featured: yes
 full_abstract: no
 show_links: yes
-paper_link: research/teacher-training/Bellue_etal_082023.pdf
+show_post_date: yes
+paper_link: /research/teacher-training/Bellue_etal_082023.pdf
 links:
 - icon: 
   icon_pack: fa
