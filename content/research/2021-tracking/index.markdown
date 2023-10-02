@@ -11,10 +11,10 @@ featured: yes
 full_abstract: no
 show_post_date: false
 show_links: yes
-paper_link: https://lukasmahler.github.io/assets/pdf/BellueMahler_September2023.pdf
+paper_link: https://lukasmahler.github.io/assets/pdf/Mahler_JMP.pdf
 links:
 /*- icon: 
   icon_pack: fa
   name: working paper
-  url: https://lukasmahler.github.io/assets/pdf/BellueMahler_September2023.pdf*/
+  url: https://lukasmahler.github.io/assets/pdf/Mahler_JMP.pdf*/
 ---
