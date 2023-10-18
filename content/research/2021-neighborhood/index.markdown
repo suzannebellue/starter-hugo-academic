@@ -1,12 +1,12 @@
 ---
 title: "Why Don't Poor Families Move? A Spatial Equilibrium Analysis of Parental Decisions with Social Learning"
 author: ''
-shortdate: '01/2023'
-date: '2023-01-15'
+shortdate: '10/2023'
+date: '2023-10-17'
 slug: neighborhoods
 tags:
   -  Publications and working papers
-summary: "In the United States, childhood neighborhood quality shapes adulthood economic opportunities. However, most children raised in bottom-quality neighborhoods still live in low-quality neighborhoods in adulthood. Could childhood neighborhood directly affect adulthood choices? I develop a quantitative spatial model of parental decisions that incorporates a novel mechanism: social learning about the technology of skill formation. Segregation generates information frictions that systematically distort parents' subjective beliefs and behavior. I calibrate the model using several United States representative datasets. The calibrated model matches targeted and non-targeted parental behavior and generates an endogenous distribution of subjective beliefs. I find a relatively modest level of delusion that increases the income Gini index by 3% and the intergenerational rank-rank slope by 12%. A housing voucher policy improves the neighborhood quality of eligible families, raising children's future earnings. When scaling up the policy, long-run and general equilibrium responses in subjective beliefs amplify the policy effects. Inequality reduces, and intergenerational mobility improves."
+summary: "In the United States, less-educated parents tend to choose lower levels of parental inputs: they reside in bad neighborhoods and allocate little time to parent-child activities. I propose a spatial overlapping generation model of parental decisions about time and neighborhood quality with imperfect information and social learning. Specifically, young agents learn about the relevance of parental inputs through observing their neighbors. Crucially, however, they are prone to misinferences as they may not be able to perfectly correct for selection induced by income segregation. I calibrate the model using several United States representative datasets. The calibrated model matches targeted and non-targeted parental behavior moments across socioeconomic groups. I find a relatively modest level of parental delusion that increases inequality by 3% (income Gini index) and social immobility by  12% (intergenerational rank-rank). A housing voucher policy improves the neighborhood quality of eligible families, raising children's future earnings. When scaling up the policy, long-run and general equilibrium responses in parental beliefs amplify the policy effects. Inequality reduces, and intergenerational mobility improves."
 featured: yes
 full_abstract: false
 paper_link: /research/neighborhoods/Bellue_JMP_Neighborhoods.pdf
@@ -14,7 +14,7 @@ links:
 /*- icon: 
   icon_pack: fa
   name: working paper
-  url: research/neighborhoods/Bellue_JMP_Neighborhoods.pdf€÷
+  url: research/neighborhoods/Bellue_JMP_Neighborhoods.pdf*/
 show_post_date: false
 show_links: yes
 images:
