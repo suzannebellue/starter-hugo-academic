@@ -1,8 +1,8 @@
 ---
 title: "Why Don't Poor Families Move? A Spatial Equilibrium Analysis of Parental Decisions with Social Learning"
 author: ''
-shortdate: '12/2023'
-date: '2023-12-15'
+shortdate: '01/2024'
+date: '2024-01-03'
 slug: neighborhoods
 tags:
   -  Publications and working papers
