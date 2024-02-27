@@ -13,10 +13,10 @@ email_label: "suzanne.bellue[at]ensae.fr"
 type: home
 ---
 
-Assistant Professor of Economics, [CREST - ENSAE](https://www.ensae.fr/en/research/center-research-economics-and-statistics-crest) (starting in fall 2023). 
+Assistant Professor of Economics, [CREST - ENSAE](https://www.ensae.fr/en/research/center-research-economics-and-statistics-crest).
  
 PhD  in economics from [Graduate School of Economic and Social Sciences](https://www.uni-mannheim.de/gess/), [Mannheim University](https://www.vwl.uni-mannheim.de/en/). 
 
-My research interests include macroeconomics, family, labor, and development economics.
+My research interests include macroeconomics, family, and development economics.
 
 Find out more about my [research](research) and [CV](uploads/resume.pdf).
