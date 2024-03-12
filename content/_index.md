@@ -1,7 +1,7 @@
 ---
 title: "" 
 images:
-  - img/pers4.jpg
+  - img/pers.jpg
 image_alt_text: ""
 image_right: false
 text_align_left: true
