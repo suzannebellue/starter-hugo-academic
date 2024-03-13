@@ -9,7 +9,7 @@ tags:
 summary: "In the United States, less-educated parents tend to allocate little time to parent-child activities, reside in disadvantaged neighborhoods, and underestimate the relevance of parental inputs for later outcomes. This paper proposes a social learning mechanism that can lead to socioeconomic differences in parental beliefs and decisions. The key elements are young adults learning through the observations of older people within their neighborhood but being prone to erroneous inferences by imperfectly correcting for selection induced by residential segregation. I incorporate the social learning mechanism in a quantitative spatial and overlapping generations model of human capital accumulation and parental decisions.  Once calibrated to the United States, the model accurately captures both targeted and non-targeted parental behavior across socioeconomic groups. It displays relatively modest levels of erroneous beliefs, contributing to a 3% increase in income inequality (measured by the income Gini index) and a 14% reduction in social mobility (measured by the income rank-rank coefficient). A housing voucher policy improves the neighborhood quality of eligible families, raising children's future earnings. When the policy is scaled up, long-run and general equilibrium responses in parental beliefs amplify the effects of the policy, reducing inequality and improving social mobility. "
 featured: yes
 full_abstract: false
-paper_link: /research/neighborhoods/Bellue_WhyDontPoorFamiliesMove.pdf
+paper_link: https://crest.science/wp-content/uploads/2024/03/2024-07.pdf
 links:
 /*- icon: 
   icon_pack: fa
