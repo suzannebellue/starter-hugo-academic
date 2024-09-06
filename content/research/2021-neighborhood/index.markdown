@@ -1,5 +1,5 @@
 ---
-title: "Why Don't Poor Families Move? A Spatial Equilibrium Analysis of Parental Decisions with Social Learning"
+title: "Social Learning, Parental Decisions, and Socioeconomic Inequality: A Quantitative Spatial Analysis"
 author: ''
 shortdate: '02/2024'
 date: '2024-02-03'
@@ -14,7 +14,7 @@ links:
 /*- icon: 
   icon_pack: fa
   name: working paper
-  url: research/neighborhoods/Bellue_WhyDontPoorFamiliesMove.pdf*/
+  url: research/neighborhoods/Bellue_ResidentialandSocialMobility_longabstract.pdf*/
 show_post_date: false
 show_links: yes
 images:
