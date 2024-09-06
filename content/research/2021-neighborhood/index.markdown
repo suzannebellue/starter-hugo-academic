@@ -1,24 +1,24 @@
 ---
-title: "Social Learning, Parental Decisions, and Socioeconomic Inequality: A Quantitative Spatial Analysis"
+title: "Residential and Social Mobility: A Quantitative Analysis of Parental Decisions with Social Learning"
 author: ''
-shortdate: '02/2024'
-date: '2024-02-03'
+shortdate: '09/2024'
+date: '2024-09-03'
 slug: neighborhoods
 tags:
   -  Publications and working papers
-summary: "In the United States, less-educated parents tend to allocate little time to parent-child activities, reside in disadvantaged neighborhoods, and underestimate the relevance of parental inputs for later outcomes. This paper proposes a social learning mechanism that can lead to socioeconomic differences in parental beliefs and decisions. The key elements are young adults learning through the observations of older people within their neighborhood but being prone to erroneous inferences by imperfectly correcting for selection induced by residential segregation. I incorporate the social learning mechanism in a quantitative spatial and overlapping generations model of human capital accumulation and parental decisions.  Once calibrated to the United States, the model accurately captures both targeted and non-targeted parental behavior across socioeconomic groups. It displays relatively modest levels of erroneous beliefs, contributing to a 3% increase in income inequality (measured by the income Gini index) and a 14% reduction in social mobility (measured by the income rank-rank coefficient). A housing voucher policy improves the neighborhood quality of eligible families, raising children's future earnings. When the policy is scaled up, long-run and general equilibrium responses in parental beliefs amplify the effects of the policy, reducing inequality and improving social mobility. "
+summary: "In the United States, less-educated parents tend to allocate little time to parent-child activities, reside in disadvantaged neighborhoods, and underestimate the relevance of parental inputs for later outcomes. This paper introduces a social learning mechanism that can explain socioeconomic differences in parental beliefs and decisions. The mechanism posits that young adults learn by observing older people in their neighborhood but are prone to misinferences as they imperfectly correct for selection induced by residential segregation. I incorporate this social learning mechanism in an overlapping generations model of residential and parental time decisions. Once calibrated to the United States, the model accurately captures both targeted and non-targeted parental behavior across socioeconomic groups. Parental beliefs have sizable effects on the economy, increasing income inequality by 3% (income Gini index) and decreasing social mobility by 15% (income rank-rank coefficient). The general equilibrium effects of housing vouchers hinge on their ability to reduce residential segregation. Greater effectiveness in reducing segregation leads to larger gains in welfare, income, and social mobility, but also extends the transition to a new steady state. "
 featured: yes
 full_abstract: false
-paper_link: https://crest.science/wp-content/uploads/2024/03/2024-07.pdf
-links:
-/*- icon: 
+paper_link: https://suzannebellue.github.io/research/neighborhoods/Bellue_ResidentialandSocialMobility.pdf
+/*links:
+- icon: 
   icon_pack: fa
   name: working paper
-  url: research/neighborhoods/Bellue_ResidentialandSocialMobility_longabstract.pdf*/
+  url: https://crest.science/wp-content/uploads/2024/03/2024-07.pdf
 show_post_date: false
 show_links: yes
 images:
-  - ../../img/nbh.png
+  - ../../img/nbh.png*/
 ---
 
 Parents' neighborhood choices shape children’s economic opportunities in the United States. But, most children raised in bottom-quality neighborhoods still live in low-quality neighborhoods in adulthood. 
