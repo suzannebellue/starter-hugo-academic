@@ -1,7 +1,6 @@
 ---
 title: "When Effective Teacher Training Falls Short in the Classroom: Evidence from an Experiment in Primary Schools"
-author: "[Adrien Bouguen](https://adrienbouguen.com/), [Marc Gurgand](https://www.parisschoolofeconomics.eu/en/gurgand-marc/), Valerie Munier and [André Tricot](http://andre.tricot.pagesperso-orange.fr/)."
-shortdate: "08/2023 "
+author: "[Adrien Bouguen](https://adrienbouguen.com/), [Marc Gurgand](https://www.parisschoolofeconomics.eu/en/gurgand-marc/), Valérie Munier and [André Tricot](http://andre.tricot.pagesperso-orange.fr/). Accepted at Economics of Education Review (2024)."
 date: '2023-08-20'
 slug: teacher-training
 tags:
