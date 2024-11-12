@@ -13,5 +13,5 @@ links:
 show_post_date: false
 show_links: yes
 images:
-paper_link: https://emilylaiken.github.io/impact_eval_paper.pdf
+paper_link: research/togoimpact/Togo_Impact_Eval_Paper.pdf 
 ---
