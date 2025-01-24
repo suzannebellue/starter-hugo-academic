@@ -15,7 +15,7 @@ type: home
 
 Assistant Professor of Economics, [CREST - ENSAE](https://www.ensae.fr/en/research/center-research-economics-and-statistics-crest).
  
-PhD  in economics from [Graduate School of Economic and Social Sciences](https://www.uni-mannheim.de/gess/), [Mannheim University](https://www.vwl.uni-mannheim.de/en/). 
+PhD  in economics from [Mannheim University](https://www.vwl.uni-mannheim.de/en/). 
 
 My research interests include macroeconomics, family, and development economics.
 

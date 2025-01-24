@@ -1,4 +1,4 @@
----
+%%---
 jobs:
   - Research assistant
 ---

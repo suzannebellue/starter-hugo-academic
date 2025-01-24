@@ -1,6 +1,7 @@
 ---
 title: "Machine Learning and Mobile Phone Data Can Improve the Targeting of Humanitarian Assistance"
-author: "[Emily Aiken](https://emilylaiken.github.io/), [Dean Karlan](http://deankarlan.com/), [Chris Udry](https://sites.northwestern.edu/christopherudry/) and [Joshua Blumenstock](https://www.jblumenstock.com/). Nature (2022). "
+author: "[Emily Aiken](https://emilylaiken.github.io/), [Dean Karlan](http://deankarlan.com/), [Chris Udry](https://sites.northwestern.edu/christopherudry/) and [Joshua Blumenstock](https://www.jblumenstock.com/)."
+shortdate: "*Nature* (2022). "
 date: '2022-03-16'
 slug: targeting
 tags:
