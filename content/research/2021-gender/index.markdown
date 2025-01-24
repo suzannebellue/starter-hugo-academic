@@ -1,5 +1,5 @@
 ---
-title: "Employment Transitions: Mechanisms For Gender Earnings Gap "
+title: "Employment Transitions: Mechanisms for Gender Earnings Gap "
 author: "[Valentina Melentyeva](https://www.valentinamelentyeva.com/)."
 date: '2022-10-28'
 slug: gender
