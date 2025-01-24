@@ -1,4 +1,4 @@
----
+%%---
 title: "Impacts of a Multi-component Reading Intervention for 6th-grade Students: Results from a Clustered Randomized Controlled Trial"
 author: "[Marina Tual](https://larac.univ-grenoble-alpes.fr/membre/marina-tual), [Maryse Bianco](https://larac.univ-grenoble-alpes.fr/membre/maryse-bianco), [Pascal Bressoux](https://larac.univ-grenoble-alpes.fr/membre/pascal-bressoux) and [Marc Gurgand](https://www.parisschoolofeconomics.eu/en/gurgand-marc/)"
 date: '2020-10-24'
