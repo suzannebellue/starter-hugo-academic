@@ -11,7 +11,7 @@ featured: yes
 full_abstract: no
 show_links: yes
 show_post_date: yes
-paper_link: https://authors.elsevier.com/a/1k4-I%7E1QC8UQZ
+paper_link: https://www.sciencedirect.com/science/article/abs/pii/S0272775724000931
 links:
 - icon: 
   icon_pack: fa
