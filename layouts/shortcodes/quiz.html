@@ -42,6 +42,8 @@
     q.options.forEach(function(option, index) {
       var btn = document.createElement("button");
       btn.style.margin = "5px";
+      btn.style.color = "#706E6C";
+      btn.style.lineColor = "#516DB0";
       btn.textContent = option;
       btn.onclick = function() {
         selectOption(index);
@@ -79,9 +81,9 @@
     // Immediate feedback.
     if (selected === q.correct) {
       userScore++;
-      alert("Correct!");
+      alert("Vrai !");
     } else {
-      alert("Incorrect!");
+      alert("Faux !");
     }
     
     // Bypass Firestore for testing: wait 1 second then go to the next question
@@ -123,7 +125,7 @@
   // ==== End of Quiz ====
   function endQuiz() {
     var container = document.getElementById("quiz-container");
-    container.innerHTML = "<h2>Quiz Completed!</h2><p>Your score: " + userScore + " out of " + quizData.length + "</p>";
+    container.innerHTML = "<h4>Fin du quiz !</h4><p>Votre score : " + userScore + " sur " + quizData.length + "</p>";
   }
 
   // ==== Start the Quiz ====
