@@ -1,5 +1,5 @@
 {{ $page := . }}
-<header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner">
+{{ if not .Params.notshowheader }}<header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner">
   <nav class="site-nav db dt-l w-100" role="navigation">
     <a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="{{ .Site.BaseURL }}" title="Home">
       <span class="link f6 f5-l dib pv1 ph2 ttu tracked">{{ .Site.Title }}</span>
@@ -19,15 +19,4 @@
       {{ end }}
     </div>
   </nav>
-   </script>
-  <script 
-     src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/quizdown.js">
-  </script>
-  <script 
-      src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/extensions/quizdownKatex.js">
-  </script>
-  <script 
-      src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/extensions/quizdownHighlight.js">
-  </script>
-  <script>quizdown.register(quizdownHighlight).register(quizdownKatex).init()</script> 
-</header>
+</header>{{end}}

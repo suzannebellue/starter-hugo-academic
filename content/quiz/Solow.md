@@ -10,6 +10,7 @@ shortdate: '02/2025'
 date: '2025-02-03'
 featured: yes
 full_abstract: false
+notshowheader: true
 ---
 
 {{< quiz >}}
