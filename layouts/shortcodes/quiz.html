@@ -1,0 +1,131 @@
+<div id="quiz-container" style="max-width:600px;margin:0 auto;">
+  <div id="question"></div>
+  <div id="options" style="margin-top:20px;"></div>
+  <div id="result" style="margin-top:20px;color:#555;"></div>
+</div>
+
+<!-- Firebase App (the core Firebase SDK) -->
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<!-- Firebase Firestore -->
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+
+<script>
+  // ==== Firebase Initialization ====
+  // TODO: Replace the placeholder config with your Firebase project settings.
+  var firebaseConfig = {
+    apiKey: "YOUR_API_KEY",
+    authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
+    projectId: "YOUR_PROJECT_ID",
+    storageBucket: "YOUR_PROJECT_ID.appspot.com",
+    messagingSenderId: "YOUR_SENDER_ID",
+    appId: "YOUR_APP_ID"
+  };
+  firebase.initializeApp(firebaseConfig);
+  var db = firebase.firestore();
+
+
+  // The inner content is output directly as JSON.
+  var quizData = {{ .Inner | safeJS }};
+  console.log("Quiz Data:", quizData);
+
+  var currentQuestion = 0;
+  var userScore = 0;
+
+  // ==== Display a Question ====
+  function showQuestion() {
+    var q = quizData[currentQuestion];
+    document.getElementById("question").innerHTML = "<p>" + q.question + "</p>";
+    var optionsDiv = document.getElementById("options");
+    optionsDiv.innerHTML = "";
+    document.getElementById("result").innerHTML = "";
+
+    q.options.forEach(function(option, index) {
+      var btn = document.createElement("button");
+      btn.style.margin = "5px";
+      btn.textContent = option;
+      btn.onclick = function() {
+        selectOption(index);
+      };
+      optionsDiv.appendChild(btn);
+    });
+  }
+
+  // ==== Handle Option Selection ====
+  function selectOption(selected) {
+    var q = quizData[currentQuestion];
+
+    // Disable option buttons.
+    var buttons = document.getElementById("options").getElementsByTagName("button");
+    for (var i = 0; i < buttons.length; i++) {
+      buttons[i].disabled = true;
+    }
+
+    // Update aggregate responses in Firestore.
+    var docRef = db.collection("quiz").doc("question" + currentQuestion);
+    docRef.set({
+      ["option" + selected]: firebase.firestore.FieldValue.increment(1)
+    }, { merge: true })
+    .then(function() {
+      displayAggregateResults(currentQuestion);
+      // After a short delay, move to the next question.
+      setTimeout(nextQuestion, 1000);
+    })
+    .catch(function(error) {
+      console.error("Error updating Firestore: ", error);
+      // Even if there’s an error, move to the next question.
+      setTimeout(nextQuestion, 1000);
+    });
+
+    // Immediate feedback.
+    if (selected === q.correct) {
+      userScore++;
+      alert("Correct!");
+    } else {
+      alert("Incorrect!");
+    }
+    
+    // Bypass Firestore for testing: wait 1 second then go to the next question
+  setTimeout(nextQuestion, 1000);
+  }
+
+  // ==== Display Aggregate Results ====
+  function displayAggregateResults(questionIndex) {
+    var resultDiv = document.getElementById("result");
+    db.collection("quiz").doc("question" + questionIndex)
+      .get()
+      .then(function(doc) {
+        if (doc.exists) {
+          var data = doc.data();
+          var aggregateText = "<h4>Aggregate responses for this question:</h4>";
+          for (var key in data) {
+            aggregateText += key + ": " + data[key] + " vote" + (data[key] !== 1 ? "s" : "") + "<br>";
+          }
+          resultDiv.innerHTML = aggregateText;
+        } else {
+          resultDiv.innerHTML = "<p>No aggregate data available yet.</p>";
+        }
+      })
+      .catch(function(error) {
+        console.error("Error fetching aggregate data: ", error);
+      });
+  }
+
+  // ==== Move to the Next Question ====
+  function nextQuestion() {
+    currentQuestion++;
+    if (currentQuestion < quizData.length) {
+      showQuestion();
+    } else {
+      endQuiz();
+    }
+  }
+
+  // ==== End of Quiz ====
+  function endQuiz() {
+    var container = document.getElementById("quiz-container");
+    container.innerHTML = "<h2>Quiz Completed!</h2><p>Your score: " + userScore + " out of " + quizData.length + "</p>";
+  }
+
+  // ==== Start the Quiz ====
+  showQuestion();
+</script>

@@ -1,0 +1,18 @@
+{{ define "main" }}
+<main class="page-main pa4" role="main">
+  <section class="blog-intro mw7 left mb3 ">
+    <h3 class="f3 mt5 mb2 ml5 lh-title  fw6">{{ .Title  | humanize }}</h3>
+  </section>
+  <section class="blog-content flex-auto  mw7 center ml7 mt2">
+    {{ $caller := . }}
+    {{ $paginator := .Paginate (where .Pages "Type" .Section).ByWeight }}
+      {{ range $paginator.Pages }}
+        {{ .Scratch.Set "$root" $caller }}
+        {{ partial "shared/summary-section" . }}
+      {{ end }}
+    {{ partial "shared/list-pagination.html" . }}
+  </section>
+</main>
+{{ end }}
+
+

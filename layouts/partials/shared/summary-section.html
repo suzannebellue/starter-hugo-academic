@@ -1,7 +1,7 @@
 {{ $page := . }}                           <!--save current page-->
 {{ $section := $page.CurrentSection }}     <!--save branch section-->
 {{ $root := .Scratch.Get "$root" }}     <!--save root section-->
-<article class="mv4 mv5-l bb">
+<article class="mv2 mv2-l bb">
   <!--if show_post_thumbnail is TRUE in root-->
   {{ if $root.Params.show_post_thumbnail }}
   <!--featured image for the leaf bundle-->
@@ -47,14 +47,12 @@
   
   <!--if show_post_thumbnail is FALSE in root-->
   {{ else }}
-  <div class="measure-wide center mb4 mb5-l">
+  <div class="center mb1-l">
     <header>
-      <h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="{{ .RelPermalink }}" class="db">{{ .Title | markdownify }}</a></h1>
-      {{ range first 1 (.GetTerms "series") }}
-      <h2 class="f5"><i class="fas fa-stream fa-fw pr1"></i><small class="f5 ttu tracked">Series: </small><a class="link i dim" href="{{ $section.RelPermalink }}">{{ .LinkTitle }}</a></h2>
-      {{ end }}
+      <a class="link dim b" href="{{ .RelPermalink }}"><h1 class="f5 lh-title  b mv1 " style="color:#484848">{{ .Title | markdownify }}</h1></a>
     </header>
       {{ with .Params.excerpt }}<p class="f6 lh-copy mv2 flex-auto">{{ . | markdownify | emojify }}</p>{{ end }}
+      <p class="f6 db mv1  "> {{ .Params.shortdate | markdownify }} {{ with .Params.categories }} in{{ range . }} <a href="{{ "categories/" | absURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}{{ end }}</p>
       {{ if .Pages }}
       <!-- Ranges through content/posts/*.md -->
       <h2 class="f5 ttu tracked mv2 pb0">In this section:</h2>

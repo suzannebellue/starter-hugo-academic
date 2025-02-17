@@ -13,6 +13,8 @@ email_label: "suzanne.bellue[at]ensae.fr"
 type: home
 ---
 
+
+
 Assistant Professor of Economics, [CREST - ENSAE](https://www.ensae.fr/en/research/center-research-economics-and-statistics-crest).
  
 PhD  in economics from [Mannheim University](https://www.vwl.uni-mannheim.de/en/). 
