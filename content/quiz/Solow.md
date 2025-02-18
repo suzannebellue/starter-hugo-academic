@@ -16,12 +16,12 @@ notshowheader: true
 {{< quiz >}}
 [
   {
-    "question": "[1/5] Dans le modèle de Solow *sans* progrès technologique, à l'état stationnaire, le taux de croissance du PIB/hab et du K/hab est ... ?",
+    "question": "[1/5] Dans le modèle de Solow <u>sans</u> progrès technologique, à l'état stationnaire, le taux de croissance du PIB/hab et du K/hab est ... ?",
     "options": ["nul", "positif et constant", "positif et variable"],
     "correct": 0
   },
   {
-    "question": "[2/5] Dans le modèle de Solow *avec* progrès technologique, à l'état stationnaire, le taux de croissance du PIB/hab et du K/hab est ...  ?",
+    "question": "[2/5] Dans le modèle de Solow <u>avec</u> progrès technologique, à l'état stationnaire, le taux de croissance du PIB/hab et du K/hab est ...  ?",
     "options": ["nul", "positif et constant", "positif et variable"],
     "correct": 1
   },
