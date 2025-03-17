@@ -5,7 +5,7 @@ shortdate: "*Economics of Education Review* (2024)."
 date: '2023-08-20'
 slug: teacher-training
 tags:
-  - Publications and working papers
+  - Publications
 summary: "Although in-service teacher training programs are designed to enhance the performance of several cohorts of students, there is little evidence on the persistence of their effects. We present the two-year results of a randomized study of an intensive in-service teacher training program conducted in France during and after the training program's implementation. Our results highlight the short-run effectiveness of the training program: it successfully improves students' performance but only during the implementation year. A detailed analysis of teachers' outcomes indicates that teachers changed their pedagogical vision and practices but afterward struggled to apply skills to contents not directly covered during training."
 featured: yes
 full_abstract: no

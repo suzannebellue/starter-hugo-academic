@@ -1,11 +1,11 @@
 {{ define "main" }}
 <main class="page-main pa4" role="main">
     {{ $caller := . }}
-    {{ range $taxonomyname, $taxonomy := index .Site.Taxonomies }}
+    {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
     {{ if eq "tags" $taxonomyname }}
-    {{ range $key, $value := $taxonomy }}
+    {{ range $key, $value := $taxonomy.Alphabetical.Reverse }}
   <section class="blog-intro mw7 left mb3 ">
-    <h3 class="f3 mt5 mb2 ml5 lh-title  fw6">{{ replace $key "-" " " | humanize }}</h3>
+    <h3 class="f3 mt5 mb2 ml5 lh-title  fw6">{{ replace $value.Term "-" " " | title }}</h3>
   </section>
   <div class="flex-l items-center">
   <section class="blog-intro mw7 left mb5 ">

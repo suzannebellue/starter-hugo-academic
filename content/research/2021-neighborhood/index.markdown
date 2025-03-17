@@ -5,7 +5,7 @@ shortdate: 'Submitted. 09/2024.'
 date: '2024-09-03'
 slug: neighborhoods
 tags:
-  -  Publications and working papers
+  -  Working Papers and Work in Progress
 summary: "In the United States, less-educated parents tend to allocate little time to parent-child activities, reside in disadvantaged neighborhoods, and underestimate the relevance of parental inputs for later outcomes. This paper introduces a social learning mechanism that can explain socioeconomic differences in parental beliefs and decisions. The mechanism posits that young adults learn by observing older people in their neighborhood but are prone to misinferences as they imperfectly correct for selection induced by residential segregation. I incorporate this social learning mechanism in an overlapping generations model of residential and parental time decisions. Once calibrated to the United States, the model accurately captures both targeted and non-targeted parental behavior across socioeconomic groups. Parental beliefs have sizable effects on the economy, increasing income inequality by 3% (income Gini index) and decreasing social mobility by 15% (income rank-rank coefficient). The general equilibrium effects of housing vouchers hinge on their ability to reduce residential segregation. Greater effectiveness in reducing segregation leads to larger gains in welfare, income, and social mobility, but also extends the transition to a new steady state. "
 featured: yes
 full_abstract: false
