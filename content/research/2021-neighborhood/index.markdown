@@ -1,12 +1,12 @@
 ---
 title: "Residential and Social Mobility: A Quantitative Analysis of Parental Decisions with Social Learning"
 author: ''
-shortdate: 'Submitted. 09/2024.'
-date: '2024-09-03'
+shortdate: 'Submitted. 07/2025.'
+date: '2025-07-03'
 slug: neighborhoods
 tags:
   -  Working Papers and Work in Progress
-summary: "In the United States, less-educated parents tend to allocate little time to parent-child activities, reside in disadvantaged neighborhoods, and underestimate the relevance of parental inputs for later outcomes. This paper introduces a social learning mechanism that can explain socioeconomic differences in parental beliefs and decisions. The mechanism posits that young adults learn by observing older people in their neighborhood but are prone to misinferences as they imperfectly correct for selection induced by residential segregation. I incorporate this social learning mechanism in an overlapping generations model of residential and parental time decisions. Once calibrated to the United States, the model accurately captures both targeted and non-targeted parental behavior across socioeconomic groups. Parental beliefs have sizable effects on the economy, increasing income inequality by 3% (income Gini index) and decreasing social mobility by 15% (income rank-rank coefficient). The general equilibrium effects of housing vouchers hinge on their ability to reduce residential segregation. Greater effectiveness in reducing segregation leads to larger gains in welfare, income, and social mobility, but also extends the transition to a new steady state. "
+summary: "In the U.S., beliefs about parenting and parental choices differ across socioeconomic groups. This paper develops an overlapping generations model with social learning, where young adults form beliefs about parenting by observing neighbors but may make inference mistakes due to selection neglect---imperfect correction for selection. In equilibrium, residential segregation generates information frictions that foster heterogeneous beliefs and distort parenting decisions. When calibrated to the U.S., the model suggests these beliefs reduce equity and efficiency, and housing vouchers can enhance both social mobility and aggregate income. In contrast, a model that replaces beliefs with fixed preference heterogeneity predicts income losses. "
 featured: yes
 full_abstract: false
 paper_link: https://suzannebellue.github.io/research/neighborhoods/Bellue_ResidentialandSocialMobility.pdf
