@@ -15,10 +15,8 @@ type: home
 
 
 
-Assistant Professor of Economics, [CREST - ENSAE](https://www.ensae.fr/en/research/center-research-economics-and-statistics-crest).
- 
-PhD  in economics from [Mannheim University](https://www.vwl.uni-mannheim.de/en/). 
+I am an Assistant Professor of Economics at [CREST - IP Paris - ENSAE](https://www.ensae.fr/en/research/center-research-economics-and-statistics-crest) and holds a Ph.D. from [Mannheim University](https://www.vwl.uni-mannheim.de/en/) (2023). I am also affiliated to [RFBerlin](https://www.rfberlin.com). 
 
-My research interests include macroeconomics, family, and development economics.
+My research spans family macroeconomics and development economics, with a focus on the causes and consequences of inequality and social mobility.
 
 Find out more about my [research](research) and [CV](uploads/resume.pdf).
