@@ -1,5 +1,5 @@
 ---
-title: "Macroeconomic Consequences of Early Education Tracking"
+title: "Efficiency and Equity of Education Tracking: A Quantitative Analysis"
 author: "[Lukas Mahler](https://lukasmahler.github.io/)."
 shortdate: "03/2024."
 date: '2024-03-18'

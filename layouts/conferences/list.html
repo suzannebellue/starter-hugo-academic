@@ -1,0 +1,49 @@
+{{ define "main" }}
+<main class="page-main pa4" role="main">
+  <section class="blog-intro mw7 left mb3 ">
+    <h3 class="f3 mt5 mb2 ml5 lh-title  fw6">{{ .Title  | humanize }}</h3>
+  </section>
+  <section class="blog-content flex-auto  mw7 center ml7 mt2">
+
+<table>
+  <thead>
+    <tr>
+      <th>Conference</th>
+      <th>Deadline</th>
+      <th>Location</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{ range sort site.Data.conferences "deadline" "asc" }}
+    <tr>
+      <td><a href="{{ .link }}" target="_blank" rel="noopener">{{ .name }}</a></td>
+      <td class="date-col">{{ .deadline }}</td>
+      <td>{{ .place }}</td>
+      <td>{{ .date }}</td>
+    </tr>
+    {{ end }}
+  </tbody>
+</table>
+
+<style>
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+tr:hover {
+  background-color: #f9f9f9;
+}
+.date-col {
+  white-space: nowrap;   /* prevents line breaks */
+}
+</style>
+  </section>
+</main>
+{{ end }}
+
+
