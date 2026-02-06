@@ -18,7 +18,7 @@
 
 - name: NBER Summer Institute, Inequality and Macroeconomics
   date: July 21-22, 2026
-  place: Cambridge, MA
+  place: Cambridge, MA, USA
   deadline: 2026-03-26
   link: https://www.nber.org/conferences/summer-institute-2026
 
@@ -33,6 +33,12 @@
   place: Montreal, Canada
   deadline: 2026-02-15
   link: https://www.t2m.network/
+  
+- name: EEA ESESM
+  date: August 17-21, 2026
+  place: Dublin, UK
+  deadline: 2026-02-23
+  link: https://www.eea-esem-congresses.org/submit-your-paper
 
 - name: CESifo Micro to Macro Conference
   date: June 12–13, 2026
@@ -119,3 +125,8 @@
   deadline: 2026-04-01
   link: https://nicjkoz.com/LisbonMacro/
 
+- name: STEG Annual Conference
+  date: January, 2026
+  place: Nairobi, Kenya
+  deadline: 2025-08-31
+  link: https://nicjkoz.com/LisbonMacro/

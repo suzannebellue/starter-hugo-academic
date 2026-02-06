@@ -18,13 +18,13 @@
     {{ range sort site.Data.conferences "deadline" "asc" }}
     <tr>
       <td><a href="{{ .link }}" target="_blank" rel="noopener">{{ .name }}</a></td>
-      <td class="date-col">{{ .deadline }}</td>
+      <td class="date-col">{{ time .deadline | time.Format "Jan. 2" }}</td>
       <td>{{ .place }}</td>
       <td>{{ .date }}</td>
-    </tr>
     {{ end }}
   </tbody>
 </table>
+
 
 <style>
 table {
