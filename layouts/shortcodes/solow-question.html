@@ -1,0 +1,11 @@
+<div class="solow-question">
+  <p><strong>Question:</strong> {{ .Get "prompt" }}</p>
+
+  <button onclick="toggleAnswer('{{ .Get "id" }}')">
+    Show / Hide Answer
+  </button>
+
+  <div id="{{ .Get "id" }}" class="solow-answer">
+    <p><strong>Answer:</strong> {{ .Get "answer" }}</p>
+  </div>
+</div>

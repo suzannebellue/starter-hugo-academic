@@ -28,6 +28,7 @@ enableEmoji = true
     #style = "arduino" # "arduino" "github"
     noClasses = false
 
+
 # Syntax highlighting
 pygmentsUseClasses = true  # use class names instead of directly inserting color codes
 #pygmentsCodeFences = true  # enable GitHub style code snippets
