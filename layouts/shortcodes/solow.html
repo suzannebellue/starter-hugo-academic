@@ -2,10 +2,10 @@
   <!--<h2>Solow Growth Model</h2>-->
 
 \[
-y_t = k_t^α
+\tilde{y}_t = \tilde{k}_t^α
 \]
 \[
-k_{t+1}-k_{t} = s k_t^\alpha - (n + δ)k_t
+\tilde{k}_{t+1}-\tilde{k}_{t} = s \tilde{k}_t^\alpha - (n + δ + g)\tilde{k}_t
 \]
   <div class="controls">
     <label>
@@ -21,6 +21,11 @@ k_{t+1}-k_{t} = s k_t^\alpha - (n + δ)k_t
     <label>
       Depreciation (δ): <span id="d-val"></span><br>
       <input type="range" id="d" min="0.01" max="0.1" step="0.005" value="0.05"><br>
+    </label>
+        
+        <label>
+      Technological growth (g): <span id="g-val"></span><br>
+      <input type="range" id="g" min="0.01" max="0.1" step="0.005" value="0.05"><br>
     </label>
 
     <label>
