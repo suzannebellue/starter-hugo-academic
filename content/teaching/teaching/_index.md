@@ -8,7 +8,7 @@ jobs:
 
 |    |    |   
 |----------|----------|
-| <b style="font-size: .875em" >2024 - </b>    &emsp; &emsp; &emsp; &emsp;   |  <b style="font-size: .875em" >[Introduction to Macroeconomics](https://www.ensae.fr/courses/2), ENSAE, [[quiz]](/quiz)</b>   &emsp; &emsp;&emsp; &emsp; &emsp; &emsp;&emsp; &emsp; &emsp; &emsp;|
+| <b style="font-size: .875em" >2024 - </b>    &emsp; &emsp; &emsp; &emsp;   |  <b style="font-size: .875em" >[Introduction to Macroeconomics](https://www.ensae.fr/courses/2), ENSAE, [[questions interactives]](/quiz)</b>   &emsp; &emsp;&emsp; &emsp; &emsp; &emsp;&emsp; &emsp; &emsp; &emsp;|
 |   |    |   
 | <b style="font-size: .875em" >2021</b>  &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; | <b style="font-size: .875em" >Demographic transition and development (TA), [STEG Virtual Course on 'Key Concepts in Macro Development'](https://steg.cepr.org/courses/steg-virtual-course-key-concepts-macro-development), [Michèle Tertilt](http://tertilt.vwl.uni-mannheim.de/)</b>|
 |   |    |   

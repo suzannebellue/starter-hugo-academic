@@ -1,5 +1,5 @@
 ---
-title: "Solow Growth Model"
+title: "Solow Growth Model Simulation"
 weight: 20
 ---
 
