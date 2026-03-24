@@ -1,5 +1,5 @@
 ---
-title: "Questions Interactives"
+title: "Ressources additionnelles"
 description:
 author: 
 show_post_thumbnail: false

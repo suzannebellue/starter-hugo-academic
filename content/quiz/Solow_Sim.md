@@ -1,6 +1,7 @@
 ---
-title: "Solow Growth Model Simulation"
+title: "Simulation du modèle de Solow"
 weight: 20
+date: "2026-02-17"
 ---
 
 

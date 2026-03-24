@@ -1,11 +1,10 @@
+
 ---
 title: "QCM : Modèle de Solow"
 layout: "raw"
+date: "2026-01-17"
 ---
-
-<!--<h1>QCM – Modèle de Solow</h1>-->
-<p>15 questions – 1 seule bonne réponse</p>
-
+<p>19 questions – une ou plusieurs bonnes réponses</p>
 <form id="quizForm">
 
 <!-- Q1 -->
@@ -20,9 +19,8 @@ layout: "raw"
 <input type="radio" name="q2" value="B"> B. positif et constant<br>
 <input type="radio" name="q2" value="C"> C. positif et variable<br><br>
 
-
 <!-- Q3 -->
-<p><b>3.</b> À l’état stationnaire sans progrès technique :</p>
+<p><b>3.</b> À l'état stationnaire sans progrès technique :</p>
 <input type="radio" name="q3" value="A"> A. sf(k<sub>ss</sub>) = δk<sub>ss</sub><br>
 <input type="radio" name="q3" value="B"> B. sf(k<sub>ss</sub>) = (δ+n)k<sub>ss</sub><br>
 <input type="radio" name="q3" value="C"> C. f'(k<sub>ss</sub>) = δ<br>
@@ -113,9 +111,39 @@ Y = K^{\alpha}(AL)^{1-\alpha}
 <input type="radio" name="q15" value="B"> B. K/(AL) ↓, r<sub>K</sub> ↑, w ↓<br>
 <input type="radio" name="q15" value="C"> C. K/(AL) ↓, r<sub>K</sub> ↑, w ↑<br><br>
 
+<!-- Q16 -->
+<p><b>16.</b><em>(Examen 2025)</em> Les « faits de Kaldor » incluent :</p>
+<input type="checkbox" name="q16" value="A"> A. Un taux de croissance du PIB par habitant constant.<br>
+<input type="checkbox" name="q16" value="B"> B. Une volatilité élevée de l'investissement.<br>
+<input type="checkbox" name="q16" value="C"> C. Une part constante des revenus du capital et du travail dans le PIB.<br>
+<input type="checkbox" name="q16" value="D"> D. Une corrélation négative consommation-revenu.<br>
+<input type="checkbox" name="q16" value="E"> E. Un taux de rendement du capital constant.<br><br>
+
+<!-- Q17 -->
+<p><b>17.</b> <em>(Examen 2025)</em> Dans le modèle de Solow, quel(s) paramètre(s) influence(nt) la croissance du PIB par habitant à long terme ?</p>
+<input type="checkbox" name="q17" value="A"> A. Le taux d'épargne.<br>
+<input type="checkbox" name="q17" value="B"> B. Le taux de dépréciation.<br>
+<input type="checkbox" name="q17" value="C"> C. Le taux de croissance démographique.<br>
+<input type="checkbox" name="q17" value="D"> D. La productivité.<br>
+<input type="checkbox" name="q17" value="E"> E. Le progrès technologique.<br><br>
+
+<!-- Q18 -->
+<p><b>18.</b>  <em>(Examen 2025)</em> La comptabilité de la croissance (<em>growth accounting</em>) décompose la croissance en :</p>
+<input type="checkbox" name="q18" value="A"> A. Contribution du capital.<br>
+<input type="checkbox" name="q18" value="B"> B. Contribution du travail.<br>
+<input type="checkbox" name="q18" value="C"> C. Contribution de la productivité totale des facteurs (PTF).<br>
+<input type="checkbox" name="q18" value="D"> D. Contribution du commerce extérieur.<br>
+<input type="checkbox" name="q18" value="E"> E. Contribution des institutions.<br><br>
+
+<!-- Q19 -->
+<p><b>19.</b> <em>(Examen 2025)</em>  Un écart de PTF entre deux pays peut s'expliquer par :</p>
+<input type="checkbox" name="q19" value="A"> A. Des différences de technologies.<br>
+<input type="checkbox" name="q19" value="B"> B. Des distorsions de marché.<br>
+<input type="checkbox" name="q19" value="C"> C. Des différences de structure démographique.<br>
+<input type="checkbox" name="q19" value="D"> D. Des différences de politiques publiques.<br>
+<input type="checkbox" name="q19" value="E"> E. Des différences du stock de capital.<br><br>
 
 <button type="button" onclick="gradeQuiz()">Valider</button>
-
 </form>
 
 <h2 id="result"></h2>
@@ -123,21 +151,25 @@ Y = K^{\alpha}(AL)^{1-\alpha}
 <div id="correction" style="display:none;">
 <h3>Correction</h3>
 <ol>
-<li>A</li>
-<li>B</li>
-<li>B</li>
-<li>B</li>
-<li>B</li>
-<li>C</li>
-<li>B</li>
-<li>A</li>
-<li>C</li>
-<li>B</li>
-<li>A</li>
-<li>C</li>
-<li>A</li>
-<li>C</li>
-<li>C</li>
+  <li>A</li>
+  <li>B</li>
+  <li>B</li>
+  <li>B</li>
+  <li>B</li>
+  <li>C</li>
+  <li>B</li>
+  <li>A</li>
+  <li>C</li>
+  <li>B</li>
+  <li>A</li>
+  <li>C</li>
+  <li>A</li>
+  <li>C</li>
+  <li>C</li>
+  <li>A, C et E</li>
+  <li>E</li>
+  <li>A, B et C</li>
+  <li>A, B et D</li>
 </ol>
 </div>
 
@@ -155,44 +187,46 @@ Y = K^{\alpha}(AL)^{1-\alpha}
   </a>
 </p>
 
-
 <script>
+// Questions radio (réponse unique)
+const singleAnswers = {
+  q1: "A", q2: "B", q3: "B", q4: "B", q5: "B",
+  q6: "C", q7: "B", q8: "A", q9: "C", q10: "B",
+  q11: "A", q12: "C", q13: "A", q14: "C", q15: "C"
+};
 
-
+// Questions checkbox (réponses multiples)
+const multiAnswers = {
+  q16: ["A", "C", "E"],
+  q17: ["E"],
+  q18: ["A", "B", "C"],
+  q19: ["A", "B", "D"]
+};
 
 function gradeQuiz() {
-  const answers = {
-    q1: "A",
-    q2: "B",
-    q3: "B",
-    q4: "B",
-    q5: "B",
-    q6: "C",
-    q7: "B",
-    q8: "A",
-    q9: "C",
-    q10: "B",
-    q11: "A",
-    q12: "C",
-    q13: "A",
-    q14: "C",
-    q15: "C"
-  };
-
   let score = 0;
+  const total = Object.keys(singleAnswers).length + Object.keys(multiAnswers).length;
 
-  for (let q in answers) {
+  // Correction radio
+  for (let q in singleAnswers) {
     const selected = document.querySelector('input[name="' + q + '"]:checked');
-    if (selected && selected.value === answers[q]) {
-      score++;
-    }
+    if (selected && selected.value === singleAnswers[q]) score++;
+  }
+
+  // Correction checkboxes
+  for (let q in multiAnswers) {
+    const correct = multiAnswers[q];
+    const checked = Array.from(document.querySelectorAll('input[name="' + q + '"]:checked')).map(el => el.value);
+    const isCorrect =
+      correct.length === checked.length &&
+      correct.every(v => checked.includes(v));
+    if (isCorrect) score++;
   }
 
   document.getElementById("result").innerHTML =
-    "Score : <strong>" + score + "/15</strong>";
-
+    "Score : <strong>" + score + "/" + total + "</strong>";
   document.getElementById("correction").style.display = "block";
 }
 
-
+  
 </script>
