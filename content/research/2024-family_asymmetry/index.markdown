@@ -10,13 +10,13 @@ summary: "Standard family models assume spouses share information. We challenge 
 featured: yes
 full_abstract: no
 show_links: yes
-paper_link: https://cepr.org/system/files/publication-files/DP21318.pdf
-/*links:
+paper_link: https://cepr.org/publications/dp21318
+links:
 - icon:
   icon_pack: fa
   name: WP RFBerlin
-  url: https://www.rfberlin.com/network-paper/private-information-in-the-family/
-- icon: 
+  url: https://www.rfberlin.com/wp-content/uploads/2026/03/26084.pdf
+/*- icon: 
   icon_pack: fa
   name: paper
   url: https://www.nature.com/articles/s41586-022-04484-9*/
