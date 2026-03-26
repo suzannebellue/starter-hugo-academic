@@ -1,7 +1,7 @@
 ---
 title: "Residential and Social Mobility: A Quantitative Analysis of Parental Decisions with Social Learning"
 author: ''
-shortdate: 'Submitted. 07/2025.'
+shortdate: 'Submitted. 03/2026.'
 date: '2025-07-03'
 slug: neighborhoods
 tags:

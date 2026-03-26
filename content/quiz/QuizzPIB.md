@@ -35,7 +35,7 @@ date: "2026-01-18"
 <input type="checkbox" name="q4" value="A"> A. Observer les variations d'espérance de vie entre les personnes ayant différents niveaux de revenus au sein d'un même pays.<br>
 <input type="checkbox" name="q4" value="B"> B. Observer les variations d'espérance de vie entre les pays.<br>
 <input type="checkbox" name="q4" value="C"> C. Observer le montant que les gens sont prêts à payer pour les obsèques.<br>
-<input type="checkbox" name="q4" value="D"> D. Observer les différences de prix de l'immobilier entre les quartiers présentant des taux de criminalité différents.<br><br>
+<input type="checkbox" name="q4" value="D"> D. Observer les différences de prix de l'immobilier entre les quartiers présentant des taux d'homicide différents.<br><br>
 
 <button type="button" onclick="gradeQuiz()">Valider</button>
 </form>
