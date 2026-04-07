@@ -9,7 +9,7 @@ tags:
 summary: "In the U.S., beliefs about parenting and parental choices differ across socioeconomic groups. This paper develops an overlapping generations model with social learning, where young adults form beliefs about parenting by observing neighbors but may make inference mistakes due to selection neglect---imperfect correction for selection. In equilibrium, residential segregation generates information frictions that foster heterogeneous beliefs and distort parenting decisions. When calibrated to the U.S., the model suggests these beliefs reduce equity and efficiency, and housing vouchers can enhance both social mobility and aggregate income. In contrast, a model that replaces beliefs with fixed preference heterogeneity predicts income losses. "
 featured: yes
 full_abstract: false
-paper_link: https://suzannebellue.github.io/research/neighborhoods/Bellue_ResidentialandSocialMobility.pdf
+paper_link: https://www.rfberlin.com/wp-content/uploads/2026/03/26100.pdf
 /*links:
 - icon: 
   icon_pack: fa
