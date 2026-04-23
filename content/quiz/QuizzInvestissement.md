@@ -1,5 +1,5 @@
 ---
-title: "QCM: Investissement"
+title: "QCM : Investissement"
 layout: "raw"
 date: "2026-01-14"
 ---

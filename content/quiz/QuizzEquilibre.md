@@ -1,5 +1,5 @@
 ---
-title: "QCM: Equilibre général et autres concepts"
+title: "QCM : Equilibre général et autres concepts"
 layout: "raw"
 date: "2026-01-13"
 ---

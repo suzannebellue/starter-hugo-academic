@@ -1,8 +1,8 @@
 ---
 title: "Residential and Social Mobility: A Quantitative Analysis of Parental Decisions with Social Learning"
 author: ''
-shortdate: 'Submitted. 03/2026.'
-date: '2025-07-03'
+shortdate: 'Revise and Resubmit, *AEJ: Macroeconomics*.'
+date: '2024-01-03'
 slug: neighborhoods
 tags:
   -  Working Papers and Work in Progress

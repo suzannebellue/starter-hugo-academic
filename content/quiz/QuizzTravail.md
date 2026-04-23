@@ -1,5 +1,5 @@
 ---
-title: "QCM: Marché du travail"
+title: "QCM : Marché du travail"
 layout: "raw"
 date: "2026-01-15"
 ---

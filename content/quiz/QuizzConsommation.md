@@ -1,5 +1,5 @@
 ---
-title: "QCM: La consommation"
+title: "QCM : La consommation"
 layout: "raw"
 date: "2026-01-16"
 ---

@@ -1,5 +1,5 @@
 ---
-title: "QCM: PIB & Mesure du niveau de vie"
+title: "QCM : PIB & Mesure du niveau de vie"
 layout: "raw"
 date: "2026-01-18"
 ---
